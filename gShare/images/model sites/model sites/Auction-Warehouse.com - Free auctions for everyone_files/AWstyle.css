@@ -1,0 +1,351 @@
+body {
+   font-size : 10pt; 
+   font-family : Arial, Verdana, Helvetica, Geneva; 
+   font-variant : normal;
+   font-weight : bold;
+   text-decoration : none;
+   background-color : White; 
+   margin-left : 3pt;
+   margin-right : 0pt;
+}
+
+.navText {
+   font-size : 9pt; 
+   font-family : Arial, Verdana, Helvetica, Geneva; 
+   font-variant : normal;
+   font-weight : normal;
+   text-decoration : none;
+   color : Navy;
+}
+
+.navText:hover {
+   font-size : 9pt; 
+   font-family : Arial, Verdana, Helvetica, Geneva; 
+   font-variant : normal;
+   font-weight : normal;
+   text-decoration : underline;
+   color : Red;
+}
+
+.navTextWhite {
+   font-size : 9pt; 
+   font-family : Arial, Verdana, Helvetica, Geneva; 
+   font-variant : normal;
+   font-weight : bold;
+   text-decoration : none;
+   color : White;
+}
+
+.navTextWhite:hover {
+   font-size : 9pt; 
+   font-family : Arial, Verdana, Helvetica, Geneva; 
+   font-variant : normal;
+   font-weight : bold;
+   text-decoration : underline;
+   color : Yellow;
+}
+
+.navTextBig {
+   font-size : 13pt; 
+   font-family : Arial, Verdana, Helvetica, Geneva; 
+   font-variant : normal;
+   font-weight : normal;
+   text-decoration : none;
+   color : Navy;
+}
+
+.navTextBig:hover {
+   font-size : 13pt; 
+   font-family : Arial, Verdana, Helvetica, Geneva; 
+   font-variant : normal;
+   font-weight : normal;
+   text-decoration : underline;
+   color : Red;
+}
+
+.navTextSmall {
+   font-size : 8pt; 
+   font-family : Arial, Verdana, Helvetica, Geneva; 
+   font-variant : normal;
+   font-weight : normal;
+   text-decoration : none;
+   color : Navy;
+}
+
+.navTextSmall:hover {
+   font-size : 8pt; 
+   font-family : Arial, Verdana, Helvetica, Geneva; 
+   font-variant : normal;
+   font-weight : normal;
+   text-decoration : underline;
+   color : Red;
+}
+
+.navLink {
+   font-size : 9pt; 
+   font-family : Arial, Verdana, Helvetica, Geneva; 
+   font-variant : normal;
+   font-weight : normal;
+   text-decoration : none;
+   color : Navy;
+}
+
+.navLink:hover {
+   font-size : 9pt; 
+   font-family : Arial, Verdana, Helvetica, Geneva; 
+   font-variant : normal;
+   font-weight : normal;
+   text-decoration : underline;
+   color : Red;
+}
+
+.copyright {
+   font-size : 8pt; 
+   font-family : Arial, Verdana, Helvetica, Geneva; 
+   font-variant : normal;
+   font-weight : normal;
+   text-decoration : none;
+   color : White;
+}
+
+.copyrightLink {
+   font-size : 8pt; 
+   font-family : Arial, Verdana, Helvetica, Geneva; 
+   font-variant : normal;
+   font-weight : normal;
+   text-decoration : underline;
+   color : White;
+}
+
+.copyrightLink:hover {
+   font-size : 8pt; 
+   font-family : Arial, Verdana, Helvetica, Geneva; 
+   font-variant : normal;
+   font-weight : normal;
+   text-decoration : underline;
+   color : Yellow;
+}
+
+.textNavy {
+   font-size : 10pt; 
+   font-family : Arial, Verdana, Helvetica, Geneva; 
+   font-variant : normal;
+   font-weight : normal;
+   text-decoration : none;
+   color : Navy;
+}
+
+.textNavyLink {
+   font-size : 10pt; 
+   font-family : Arial, Verdana, Helvetica, Geneva; 
+   font-variant : normal;
+   font-weight : normal;
+   text-decoration : underline;
+   color : Navy;
+}
+
+.textNavyLink:hover {
+   font-size : 10pt; 
+   font-family : Arial, Verdana, Helvetica, Geneva; 
+   font-variant : normal;
+   font-weight : normal;
+   text-decoration : underline;
+   color : Red;
+}
+
+.catList {
+   font-size : 10pt; 
+   font-family : Arial, Verdana, Helvetica, Geneva; 
+   font-variant : normal;
+   font-weight : normal;
+   text-decoration : underline;
+   color : Navy;
+}
+
+.catList:hover {
+   font-size : 10pt; 
+   font-family : Arial, Verdana, Helvetica, Geneva; 
+   font-variant : normal;
+   font-weight : normal;
+   text-decoration : underline;
+   color : Red;
+}
+
+.catListSmall {
+   font-size : 8pt; 
+   font-family : Arial, Verdana, Helvetica, Geneva; 
+   font-variant : normal;
+   font-weight : normal;
+   text-decoration : underline;
+   color : Navy;
+}
+
+.catListSmall:hover {
+   font-size : 8pt; 
+   font-family : Arial, Verdana, Helvetica, Geneva; 
+   font-variant : normal;
+   font-weight : normal;
+   text-decoration : underline;
+   color : Red;
+}
+
+.catText {
+   font-size : 8pt; 
+   font-family : Arial, Verdana, Helvetica, Geneva; 
+   font-variant : normal;
+   font-weight : normal;
+   text-decoration : none;
+   color : Navy;
+}
+
+.catTextBig {
+   font-size : 10pt; 
+   font-family : Arial, Verdana, Helvetica, Geneva; 
+   font-variant : normal;
+   font-weight : normal;
+   text-decoration : none;
+   color : Navy;
+}
+
+.bodySmall {
+   font-size : 8pt; 
+   font-family : Arial, Verdana, Helvetica, Geneva; 
+   font-variant : normal;
+   font-weight : normal;
+   text-decoration : none;
+   color : Black;
+}
+
+.bodySmall:hover {
+   font-size : 8pt; 
+   font-family : Arial, Verdana, Helvetica, Geneva; 
+   font-variant : normal;
+   font-weight : normal;
+   text-decoration : underline;
+   color : Red;
+}
+
+.bodySmallBold {
+   font-size : 8pt; 
+   font-family : Arial, Verdana, Helvetica, Geneva; 
+   font-variant : normal;
+   font-weight : bold;
+   text-decoration : none;
+   color : Black;
+}
+
+.bodySmallBold:hover {
+   font-size : 8pt; 
+   font-family : Arial, Verdana, Helvetica, Geneva; 
+   font-variant : normal;
+   font-weight : bold;
+   text-decoration : underline;
+   color : Red;
+}
+
+A {
+   font-size : 10pt; 
+   font-family : Arial, Verdana, Helvetica, Geneva; 
+   font-variant : normal;
+   font-weight : normal;
+   text-decoration : underline;
+   color : Black;
+}
+
+A:hover {
+   font-size : 10pt; 
+   font-family : Arial, Verdana, Helvetica, Geneva; 
+   font-variant : normal;
+   font-weight : normal;
+   text-decoration : underline;
+   color : Red;
+}
+
+P {
+   font-size : 10pt; 
+   font-family : Arial, Verdana, Helvetica, Geneva; 
+   font-variant : normal;
+   font-weight : normal; 
+   font-style : normal; 
+   text-decoration : none;
+   color: Black;
+   text-indent : 0; 
+   margin-top : 10; 
+}
+
+H1 {
+   font-weight : bold; 
+   font-size : 14pt; 
+   font-family : Arial, Verdana, Helvetica, Geneva; 
+   text-align : center; 
+   color: Black; 
+}
+
+H2 {
+   font-weight : bold; 
+   font-size : 13pt; 
+   font-family : Arial, Verdana, Helvetica, Geneva; 
+   text-align : center; 
+   color: Black; 
+}
+
+H3 {
+   font-weight : bold; 
+   font-size : 12pt; 
+   font-family : Arial, Verdana, Helvetica, Geneva; 
+   text-align : center; 
+   color: Black; 
+}
+
+H4 {
+   font-weight : bold; 
+   font-size : 11pt; 
+   font-family : Arial, Verdana, Helvetica, Geneva; 
+   text-align : center; 
+   color: Black; 
+}
+
+H5 {
+   font-weight : bold; 
+   font-size : 10pt; 
+   font-family : Arial, Verdana, Helvetica, Geneva; 
+   text-align : center; 
+   color: Black; 
+}
+
+H6 {
+   font-weight : bold; 
+   font-size : 8pt; 
+   font-family : Arial, Verdana, Helvetica, Geneva; 
+   text-align : center; 
+   color: Black; 
+}
+
+UL {
+   font-size : 10pt; 
+   font-family : Arial, Verdana, Helvetica, Geneva; 
+   font-weight : normal;
+}
+
+TD {
+   font-size : 10pt; 
+   font-family : Arial, Verdana, Helvetica, Geneva; 
+}
+
+OL {
+   font-size : 10pt; 
+   font-family : Arial, Verdana, Helvetica, Geneva; 
+}
+
+LI {
+   font-size : 10pt; 
+   font-family : Arial, Verdana, Helvetica, Geneva; 
+   font-weight : normal;
+   margin-top : 5;
+}
+
+DL {
+   font-style : normal; 
+   font-size : 10pt; 
+   font-family : Arial, Verdana, Helvetica, Geneva; 
+}

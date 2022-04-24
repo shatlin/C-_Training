@@ -1,0 +1,5 @@
+E:\Shatlin\Work\trials\GenericDictionary\GenericDictionary\bin\Debug\GenericDictionary.exe
+E:\Shatlin\Work\trials\GenericDictionary\GenericDictionary\bin\Debug\GenericDictionary.pdb
+E:\Shatlin\Work\trials\GenericDictionary\GenericDictionary\obj\Debug\ResolveAssemblyReference.cache
+E:\Shatlin\Work\trials\GenericDictionary\GenericDictionary\obj\Debug\GenericDictionary.exe
+E:\Shatlin\Work\trials\GenericDictionary\GenericDictionary\obj\Debug\GenericDictionary.pdb

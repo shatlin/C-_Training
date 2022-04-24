@@ -1,0 +1,547 @@
+BODY
+{
+}
+table.helpT
+{
+	border-right: #6699cc 1px solid;
+	border-top: #6699cc 1px solid;
+	font-weight: normal;
+	font-size: 11px;
+	border-left: #6699cc 1px solid;
+	width: 500px;
+	color: #404040;
+	border-bottom: #6699cc 1px solid;
+	font-family: Verdana;
+	border-collapse: collapse;
+	background-color: #fafafa;
+	text-align: left;
+}
+td.helpHed
+{
+	
+	font-weight: bold;
+	font-size: 13px;
+	border-left: #6699cc 1px solid;
+	color: #ffffff;
+	text-indent: 5px;
+	border-bottom: #000 1px solid;
+	font-family: Verdana;
+	background-color: #6699cc;
+	text-align: center;
+	
+	
+}
+
+
+
+td.innertitle
+{
+	font-weight: bold;
+	font-size: 11px;
+	border-left: #6699cc 1px solid;
+	color: #000000;
+	text-indent: 5px;
+	border-bottom: #000 1px solid;
+	font-family: Verdana;
+	background-color: #D2E4FC;
+	text-align: center;
+}
+
+td.borderlesstitle
+{
+	font-weight: bold;
+	font-size: 11px;
+	border:0px;
+	color: #000000;
+	text-indent: 5px;
+	font-family: Verdana;
+	background-color: #D2E4FC;
+	text-align:center ;
+}
+
+td.smallcell
+{
+	font-weight: bold;
+	font-size: 10px;
+	height:5px;
+	border:0px;
+	color: #000000;
+	text-indent: 5px;
+	font-family: Verdana;
+	background-color: #D2E4FC;
+	text-align: center;
+}
+
+td.smallheader
+{
+	
+	font-weight: bold;
+	font-size: 11px;
+	border-left: #6699cc 1px solid;
+	color: #ffffff;
+	text-indent: 5px;
+	border-bottom: #000 1px solid;
+	font-family: Verdana;
+	background-color: #6699cc;
+	text-align: center;
+	
+	
+}
+.gridboldcontent
+{
+	background-color: #D2E4FC;
+	font-weight: bold;
+	font-size: 11px;
+	font-family: Verdana;
+}
+.smallgridheader
+{
+	
+	font-weight: bold;
+	font-size: 13px;
+	border-left: #6699cc 1px solid;
+	color: #ffffff;
+	height :12px;
+	text-indent: 5px;
+	border-bottom: #000 1px solid;
+	font-family: Verdana;
+	background-color: #6699cc;
+	text-align: center;
+	
+	
+}
+
+radiobuttonlist.rdolist
+{
+	font-size :10px;
+	text-align :left ;
+	
+
+}
+
+td.innertitle2
+{
+	font-weight: bold;
+	font-size: 11px;
+	border-left: #000 1px solid;
+	color: #000000;
+	text-indent: 5px;
+	border-bottom: #000 1px solid;
+	font-family: Verdana;
+	background-color: #D2E4FC;
+	text-align: center;
+}
+td.innerbody
+{
+	font-weight: bold;
+	font-size: 11px;
+	border-left: #000 1px solid;
+	color: #000000;
+	text-indent: 5px;
+	border-bottom: #000 1px solid;
+	font-family: Verdana;
+	background-color: #ffffff;
+	text-align: center;
+}
+
+
+td.helpBod
+{
+	border-right: #000 1px solid;
+	border-top: #000 1px solid;
+	font-weight: bold;
+	font-size: 11px;
+	border-left: #000 1px solid;
+	color: #000000;
+	text-indent: 3px;
+	border-bottom: #000 1px solid;
+	font-family: Verdana, sans-serif, Arial;
+	background-color: #99ccff;
+	text-align: left;
+	
+}
+td.sup
+{
+	border-right:#000 1px solid;
+	border-top: #9cf 1px solid;
+	font-weight: normal;
+	font-size: 10px;
+	border-left: #000 1px solid;
+	color: #000000;
+	text-indent: 3px;
+	border-bottom: #9cf 1px solid;
+	font-family: Verdana, sans-serif, Arial;
+	background-color: #ffffff;
+	text-align: left;
+	
+		 
+}
+
+
+
+
+td.innerhead
+{
+	border-right: #000 1px solid;
+	border-top: #000 1px solid;
+	font-weight: bold;
+	font-size: 11px;
+	border-left: #000 1px solid;
+	color: #000000;
+	text-indent: 3px;
+	border-bottom: #000 1px solid;
+	font-family: Verdana, sans-serif, Arial;
+	background-color: #99ccff;
+	text-align: left;
+}
+td.incontblk
+{
+	font-weight: normal;
+	font-size: 11px;
+	border-left: #9cf 1px solid;
+	color: #000000;
+	text-indent: 5px;
+	border-bottom: #9cf 1px solid;
+	border-top :#9cf 0px solid;
+	font-family: Verdana;
+	background-color: #ffffff;
+	text-align: center;
+}
+
+td.incontblk
+{
+	font-weight: normal;
+	font-size: 11px;
+	border-left: #000 1px solid;
+	color: #000000;
+	text-indent: 5px;
+	border-bottom: #000 1px solid;
+	border-top :#9cf 0px solid;
+	font-family: Verdana;
+	background-color: #ffffff;
+	text-align: center;
+}
+
+td.splcell
+{
+	border-right: #000 0px solid;
+	border-top: #000 0px solid;
+	font-weight:normal;
+	font-size: 10px;
+	border-left: #000 1px solid;
+	color: red;
+	text-indent: 10px;
+	border-bottom: #000 1px solid;
+	font-family: Verdana, sans-serif, Arial;
+	background-color: #ffffff;
+	text-align: center;
+}
+
+td.desc
+{
+	border-right:#000 1px solid;
+	border-top: #000 1px solid;
+	font-weight: normal;
+	font-size: 11px;
+	border-left: #000 1px solid;
+	color: #000000;
+	text-indent: 0px;
+	border-bottom: #9cf 1px solid;
+	font-family: Verdana, sans-serif, Arial;
+	background-color: #ffffff;
+	text-align: left;
+	width:250px;
+	white-space:nowrap;  
+}
+table.sofT
+{
+	border-right: #6699cc 1px solid;
+	border-top: #6699cc 1px solid;
+	font-weight: normal;
+	font-size: 11px;
+	border-left: #6699cc 1px solid;
+	color: #404040;
+	border-bottom: #6699cc 1px solid;
+	font-family: Verdana;
+	border-collapse: collapse;
+	background-color: white;
+	text-align: center;
+	
+	
+	
+}
+	
+
+input.txt
+{
+	border-right: #000000 1px solid;
+	border-top: #000000 1px solid;
+	border-left: #000000 1px solid;
+	font-family: Verdana, sans-serif, Arial;
+	font-size: 11px;
+	border-bottom: #000000 1px solid;
+	background-color: white;
+	
+	
+}
+input.btn
+{
+	border-right: #000000 1px solid;
+	border-top: #000000 1px solid;
+	font-size: 11px;
+	font-weight :bold ;
+	border-left: #000000 1px solid;
+	border-bottom: #000000 1px solid;
+	font-family: Verdana, sans-serif, Arial;
+	cursor:hand ; 
+	width :100px;
+	height :20px;
+	background-color :#6699cc;
+	color :#ffffff;
+		
+	
+}
+
+input.rad
+{
+	border-right:#000 1px solid;
+	border-top: #9cf 1px solid;
+	font-weight: normal;
+	font-size: 11px;
+	border-left: #000 1px solid;
+	color: #000000;
+	text-indent: 3px;
+	border-bottom: #9cf 1px solid;
+	font-family: Verdana, sans-serif, Arial;
+	background-color: #ffffff;
+	text-align: left;
+}
+
+select.selectstyle
+{
+	
+	
+	font-weight: bold;
+	font-size: 11px;
+	color: #000000;
+	text-indent: 3px;
+	font-family: Verdana, sans-serif, Arial;
+	text-align: left;
+	width:110px; 
+} 
+
+H2.h2head
+{
+	clear: both;
+	border-right: #000000 3px;
+	padding-right: 5px;
+	border-top: #000000 3px;
+	padding-left: 5px;
+	font-size: 13px;
+	font-family:Verdana ; 
+	font-variant :small-caps ;
+	padding-bottom: 2px;
+	border-left: #000000 3px;
+	color: #ffffff;
+	padding-top: 2px;
+	border-bottom: #000000 3px;
+	background-color: #6699cc;
+	text-align: center;
+	
+	
+}
+
+topheader
+{
+	clear: both;
+	border-right: #000000 3px;
+	padding-right: 5px;
+	border-top: #000000 3px;
+	padding-left: 5px;
+	font-size: 13px;
+	font-family:Verdana ; 
+	font-variant :small-caps ;
+	padding-bottom: 2px;
+	border-left: #000000 3px;
+	color: #000080;
+	padding-top: 2px;
+	border-bottom: #000000 3px;
+	background-color: #6699cc;
+	text-align: center;
+	BACKGROUND-IMAGE:url(stick_topic.bmp);
+} 
+
+
+H2.h2result
+{
+	
+	border-right: #005f8c 0px;
+	padding-right: 5px;
+	border-top: #005f8c 1px;
+	padding-left: 5px;
+	font-size: 14px;
+	font-family: Verdana, sans-serif, Arial;
+	font-variant :small-caps ;
+	padding-bottom: 2px;
+	color: #FFFFFF;
+	padding-top: 2px;
+	border-bottom: #005f8c 1px;
+	background-color: #005F8C;
+	text-align: center;
+
+}
+
+.FormMessages
+{
+	font-size: 11px;
+	color: Black;
+	font-family: Tahoma;
+	font-weight:bold;
+	
+	
+}
+
+.FormErrorMessages
+{
+	font-size: 11px;
+	color: Red;
+	font-family: Tahoma;
+	font-weight: normal;
+}
+
+
+.FormLabels
+{
+	font-size: 11px;
+	color: Black;
+	font-family: Tahoma;
+	font-weight: bold;
+}
+
+.FormTextBoxes
+{
+	font-size: 11px;
+	color: Black;
+	font-family: Tahoma;
+	font-weight: normal;
+	  
+}
+
+.FormLinkButtons
+{
+	font-size: 10px;
+	font-family: Verdana, sans-serif, Arial;
+	font-weight: normal;
+	  
+}
+
+.CalanderTextBoxes
+{
+	font-size: 15px;
+	color: Black;
+	font-weight: normal;
+	border-right: #000000 1px solid;
+	border-top: #000000 1px solid;
+	border-left: #000000 1px solid;
+	font-family: Verdana, sans-serif, Arial;
+	border-bottom: #000000 1px solid;
+	background-color: white;
+	
+	  
+}
+
+.FormComboBoxes
+{
+	font-size: 11px;
+	color: Black;
+	font-family: Tahoma;
+	font-weight: normal;	
+}
+
+.FormListBoxes, FormLinkButtons
+{
+	font-size: 11px;
+	color: Black;
+	font-family: Tahoma;
+	font-weight: normal;	
+}
+
+.FormRadioButtons
+{
+	font-size: 11px;
+	color: Black;
+	font-family: Tahoma;
+	font-weight: bold;
+}
+
+.FormCheckBoxes
+{
+	font-size: 11px;
+	color: Black;
+	font-family: Tahoma;
+	font-weight: normal;	
+}
+
+.FormSmallCheckBoxes
+{
+	font-size: small;
+	height :3px;
+	width :3px;
+	line-height :0px;
+	color: Black;
+	font-family: Tahoma;
+	font-weight: normal;	
+}
+
+.FormButtons
+{
+	border-right: #000000 1px solid;
+	border-top: #000000 1px solid;
+	font-size: 11px;
+	font-weight :bold ;
+	border-left: #000000 1px solid;
+	border-bottom: #000000 1px solid;
+	font-family: Verdana, sans-serif, Arial;
+	cursor:hand ; 
+	width :82px;
+	height :20px;
+	background-color :#6699cc;
+	color :#ffffff;
+}
+
+.caldays
+{
+	font-weight: bold;
+	font-size: 11px;
+	color: #000000;
+	font-family: Verdana, sans-serif, Arial;
+	background-color: #99ccff;
+}
+
+
+
+.gridHeader
+{
+	font-weight: bold;
+	font-size: 11px;
+	color: #000000;
+	font-family: Verdana, sans-serif, Arial;
+	background-color: #99ccff;
+}
+
+.gridContent
+{
+	font-weight: bold;
+	font-size: 11px;
+	color: #000000;
+	font-family: Verdana;
+	
+}
+
+.gridItem
+{
+	font-family:Verdana;
+	font-size:10px;
+	background-color:White;
+	color:Black;
+}

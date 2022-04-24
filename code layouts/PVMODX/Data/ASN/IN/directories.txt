@@ -1,0 +1,14 @@
+string asnindir   = "D:\\PVDATA\\INBOUND\\ASN\\IN\\";
+string asnintmdir = "D:\\PVDATA\\INBOUND\\ASN\\INTM\\ASN.XLS";
+string asnerrdir  = "D:\\PVDATA\\INBOUND\\ASN\\ERR\\";
+string asnoutdir  = "D:\\PVDATA\\INBOUND\\ASN\\OUT\\";
+
+string cstindir   = "D:\\PVDATA\\INBOUND\\COST\\IN\\";
+string cstintmdir = "D:\\PVDATA\\INBOUND\\COST\\INTM\\COST.XLS";
+string csterrdir  = "D:\\PVDATA\\INBOUND\\COST\\ERR\\";
+string cstoutdir  = "D:\\PVDATA\\INBOUND\\COST\\OUT\\";
+
+string splindir   = "D:\\PVDATA\\INBOUND\\SHPLAN\\IN\\";
+string splintmdir = "D:\\PVDATA\\INBOUND\\SHPLAN\\INTM\\SHPL.XLS";
+string splerrdir  = "D:\\PVDATA\\INBOUND\\SHPLAN\\ERR\\";
+string sploutdir  = "D:\\PVDATA\\INBOUND\\SHPLAN\\OUT\\";

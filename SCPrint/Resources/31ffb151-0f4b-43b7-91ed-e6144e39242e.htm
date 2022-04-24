@@ -1,0 +1,174 @@
+﻿<html DIR="LTR" xmlns:tool="http://www.microsoft.com/tooltip" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:ddue="http://ddue.schemas.microsoft.com/authoring/2003/5" xmlns:MSHelp="http://msdn.microsoft.com/mshelp">
+  <head>
+    <META HTTP-EQUIV="Pragma" content="no-cache" />
+    <META HTTP-EQUIV="Content-Type" CONTENT="text/html; CHARSET=utf-8" />
+    <META NAME="save" CONTENT="history" />
+    <title>Office Report View Web Part</title>
+    
+    <link rel="stylesheet" type="text/css" href="../local/Classic.css">
+      
+    </link>
+    
+    <script src="../local/script.js">
+      
+    </script>
+  </head>
+  <body>
+    <input type="hidden" id="userDataCache" class="userDataStyle">
+    </input>
+    <input type="hidden" id="hiddenScrollOffset">
+    </input>
+    <img id="dropDownImage" style="display:none; height:0; width:0;" src="../local/drpdown.gif">
+      
+    </img>
+    <img id="dropDownHoverImage" style="display:none; height:0; width:0;" src="../local/drpdown_orange.gif">
+      
+    </img>
+    <img id="copyImage" style="display:none; height:0; width:0;" src="../local/copycode.gif">
+      
+    </img>
+    <img id="copyHoverImage" style="display:none; height:0; width:0;" src="../local/copycodeHighlight.gif">
+      
+    </img>
+    <img id="expandImage" style="display:none; height:0; width:0;" src="../local/exp.gif">
+      
+    </img>
+    <img id="collapseImage" style="display:none; height:0; width:0;" src="../local/collapse.gif">
+      
+    </img>
+    <img id="collapseAllImage" style="display:none; height:0; width:0;" src="../local/collall.gif">
+      
+    </img>
+    <img id="expandAllImage" style="display:none; height:0; width:0;" src="../local/expall.gif">
+      
+    </img>
+    <span id="expandalltext" style="display:none;">
+       Expand All
+    </span>
+    <span id="collapsealltext" style="display:none;">
+       Collapse All
+    </span>
+    <span id="alltext" style="display:none;">
+      All
+    </span>
+    <div id="header">
+      <table width="100%" id="topTable">
+        <tr id="headerTableRow1">
+          <td align="left">
+            <span id="runningHeaderText">
+              
+            </span>
+          </td>
+        </tr>
+        <tr id="headerTableRow2">
+          <td align="left">
+            <span id="nsrTitle">Office Report View Web Part</span>
+          </td>
+        </tr>
+        <tr id="headerTableRow3">
+          <td>
+            <a href="#seeAlsoSection">
+              See Also
+            </a>
+          </td>
+        </tr>
+      </table>
+      <table width="100%" id="bottomTable" cellspacing="0" cellpadding="0">
+        <tr>
+          <td>
+            <span id="languageFilterToolTip" style="cursor:default;" onmouseover="languageFilterImage.src=dropDownHoverImage.src;" onfocusin="languageFilterImage.src=dropDownHoverImage.src;" onmouseout="languageFilterImage.src=dropDownImage.src;" onfocusout="languageFilterImage.src=dropDownImage.src;" tabindex="0">
+              <img id="languageFilterImage" src="../local/drpdown.gif">
+                
+              </img>
+              <label id="showAllLabel" for="languageFilterImage" style="display: none;">
+                Language Filter: 
+                    All
+                  
+              </label>
+              <label id="multipleLabel" for="languageFilterImage" style="display: none;">
+                Language Filter: 
+                    Multiple
+                  
+              </label>
+              <label id="vbLabel" for="languageFilterImage" style="display: none;">
+                Language Filter: 
+                    Visual Basic
+                  
+              </label>
+              <label id="csLabel" for="languageFilterImage" style="display: none;">
+                Language Filter: 
+                    C#
+                  
+              </label>
+              <label id="cLabel" for="languageFilterImage" style="display: none;">
+                Language Filter: 
+                    C++
+                  
+              </label>
+              <label id="jsharpLabel" for="languageFilterImage" style="display: none;">
+                Language Filter: 
+                    J#
+                  
+              </label>
+              <label id="jsLabel" for="languageFilterImage" style="display: none;">
+                Language Filter: 
+                    JScript
+                  
+              </label>
+            </span>
+          </td>
+        </tr>
+      </table>
+      <span style="display:none" id="languageSpan">
+        <input id="vbDeclarationCheckbox" type="checkbox" name="languageFilter" onClick="SetLanguage(this)" />
+        <label class="languageFilter" for="vbDeclarationCheckbox">
+          Visual Basic (Declaration)
+        </label>
+        <br />
+        <input id="vbUsageCheckbox" type="checkbox" name="languageFilter" onClick="SetLanguage(this)" />
+        <label class="languageFilter" for="vbUsageCheckbox">
+          Visual Basic (Usage)
+        </label>
+        <br />
+        <input id="csCheckbox" type="checkbox" name="languageFilter" onClick="SetLanguage(this)" />
+        <label class="languageFilter" for="csCheckbox">
+          C#
+        </label>
+        <br />
+        <input id="cCheckbox" type="checkbox" name="languageFilter" onClick="SetLanguage(this)" />
+        <label class="languageFilter" for="cCheckbox">
+          C++
+        </label>
+        <br />
+        <input id="jsharpCheckbox" type="checkbox" name="languageFilter" onClick="SetLanguage(this)" />
+        <label class="languageFilter" for="jsharpCheckbox">
+          J#
+        </label>
+        <br />
+        <input id="jsCheckbox" type="checkbox" name="languageFilter" onClick="SetLanguage(this)" />
+        <label class="languageFilter" for="jsCheckbox">
+          JScript
+        </label>
+        <br />
+      </span>
+    </div>
+    <div id="mainSection">
+      <div id="mainBody">
+        <div id="allHistory" class="saveHistory" onsave="saveAll()" onload="loadAll()">
+        </div>
+        
+    <p>In an Office Report View Web Part, a component of Microsoft® Office Business Scorecard Manager 2005, you can see and interact with views of data that are either derived from the scorecard view displayed in the Office Scorecard View Web Part, or data that comes from other data sources. Business Scorecard Manager report views are presentations of business data in the form of PivotTable reports, PivotChart reports, spreadsheets, scorecards, Web pages, or SQL Server Reporting Services reports. Additionally, the Office Report View Web Part can display a custom-made report view created by your organization.</p>
+    <div class="alert"><table width="100%" cellspacing="0" cellpadding="0"><tr><th align="left"><img class="note" src="../local/note.gif"></img>Note: </th></tr><tr><td>
+      To view and interact with a PivotTable report, PivotChart report, or spreadsheet, you must have Office 2003 Web Components installed on your computer. If Office 2003 Web Components is not installed on your computer, a red <b>x</b> appears when you attempt to view a PivotTable report, PivotChart report, or a spreadsheet.<p></p>
+    </td></tr></table><p></p></div>
+    <p>If an Office Report View Web Part is providing a detailed view of data that you select in an Office Scorecard View Web Part, it displays different report views as you change your selection in the business scorecard. For example, detailed sales data for specific sales regions might be shown as sales per fiscal year and fiscal quarter for each region in a PivotTable report view. The contents of the PivotTable report would change each time you changed your fiscal year selection in Scorecard View.</p>
+    <p>If an Office Report View Web Part is providing supplemental data from outside data sources, that view does not change as you change your selection in the connected Office Scorecard View Web Part. For example, a Web page report view might display additional information about the sales strategy for an organization in Web page format, and the content of this page would remain the same as you change your selections in the connected Office Scorecard View Web Part.</p>
+  <h1 class="heading">See Also</h1><div id="seeAlsoSection" class="section"><a href="3e85afeb-ee28-4893-8a13-3b0c1e984379.htm">Add an Office Report View Web Part to a Web page</a><br /><a href="e95cba3f-fca7-449e-8e2c-f3471e857efd.htm">Use a PivotChart report view</a><br /><a href="d53b7530-3381-47a9-8129-ee2380e559da.htm">Use a PivotTable report view</a><br /><a href="f22d248e-bd2e-4b81-8b21-82b9ac569005.htm">Use a scorecard report view</a><br /><a href="9ee44ae3-18d3-41f6-bb5a-4864149a9cb4.htm">Use a spreadsheet report view</a><br /><a href="12032715-f728-4395-8487-e18852d12529.htm">Use a SQL Server Reporting Services report view</a><br /><a href="5f3734cb-78e0-48a5-b06d-56f80ee0666a.htm">Use a Web page report view</a><br /><br /></div><!--[if gte IE 5]>
+			<tool:tip element="seeAlsoToolTip" avoidmouse="false"/><tool:tip element="languageFilterToolTip" avoidmouse="false"/>
+		<![endif]--></div>
+      <div id="footer">
+        
+      </div>
+    </div>
+  </body>
+</html>

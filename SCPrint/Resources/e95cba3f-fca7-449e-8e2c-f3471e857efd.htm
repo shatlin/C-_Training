@@ -1,0 +1,183 @@
+﻿<html DIR="LTR" xmlns:tool="http://www.microsoft.com/tooltip" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:ddue="http://ddue.schemas.microsoft.com/authoring/2003/5" xmlns:MSHelp="http://msdn.microsoft.com/mshelp">
+  <head>
+    <META HTTP-EQUIV="Pragma" content="no-cache" />
+    <META HTTP-EQUIV="Content-Type" CONTENT="text/html; CHARSET=utf-8" />
+    <META NAME="save" CONTENT="history" />
+    <title>Use a PivotChart report view</title>
+    
+    <link rel="stylesheet" type="text/css" href="../local/Classic.css">
+      
+    </link>
+    
+    <script src="../local/script.js">
+      
+    </script>
+  </head>
+  <body>
+    <input type="hidden" id="userDataCache" class="userDataStyle">
+    </input>
+    <input type="hidden" id="hiddenScrollOffset">
+    </input>
+    <img id="dropDownImage" style="display:none; height:0; width:0;" src="../local/drpdown.gif">
+      
+    </img>
+    <img id="dropDownHoverImage" style="display:none; height:0; width:0;" src="../local/drpdown_orange.gif">
+      
+    </img>
+    <img id="copyImage" style="display:none; height:0; width:0;" src="../local/copycode.gif">
+      
+    </img>
+    <img id="copyHoverImage" style="display:none; height:0; width:0;" src="../local/copycodeHighlight.gif">
+      
+    </img>
+    <img id="expandImage" style="display:none; height:0; width:0;" src="../local/exp.gif">
+      
+    </img>
+    <img id="collapseImage" style="display:none; height:0; width:0;" src="../local/collapse.gif">
+      
+    </img>
+    <img id="collapseAllImage" style="display:none; height:0; width:0;" src="../local/collall.gif">
+      
+    </img>
+    <img id="expandAllImage" style="display:none; height:0; width:0;" src="../local/expall.gif">
+      
+    </img>
+    <span id="expandalltext" style="display:none;">
+       Expand All
+    </span>
+    <span id="collapsealltext" style="display:none;">
+       Collapse All
+    </span>
+    <span id="alltext" style="display:none;">
+      All
+    </span>
+    <div id="header">
+      <table width="100%" id="topTable">
+        <tr id="headerTableRow1">
+          <td align="left">
+            <span id="runningHeaderText">
+              
+            </span>
+          </td>
+        </tr>
+        <tr id="headerTableRow2">
+          <td align="left">
+            <span id="nsrTitle">Use a PivotChart report view</span>
+          </td>
+        </tr>
+        <tr id="headerTableRow3">
+          <td>
+            <a href="#seeAlsoSection">
+              See Also
+            </a>
+          </td>
+        </tr>
+      </table>
+      <table width="100%" id="bottomTable" cellspacing="0" cellpadding="0">
+        <tr>
+          <td>
+            <span id="languageFilterToolTip" style="cursor:default;" onmouseover="languageFilterImage.src=dropDownHoverImage.src;" onfocusin="languageFilterImage.src=dropDownHoverImage.src;" onmouseout="languageFilterImage.src=dropDownImage.src;" onfocusout="languageFilterImage.src=dropDownImage.src;" tabindex="0">
+              <img id="languageFilterImage" src="../local/drpdown.gif">
+                
+              </img>
+              <label id="showAllLabel" for="languageFilterImage" style="display: none;">
+                Language Filter: 
+                    All
+                  
+              </label>
+              <label id="multipleLabel" for="languageFilterImage" style="display: none;">
+                Language Filter: 
+                    Multiple
+                  
+              </label>
+              <label id="vbLabel" for="languageFilterImage" style="display: none;">
+                Language Filter: 
+                    Visual Basic
+                  
+              </label>
+              <label id="csLabel" for="languageFilterImage" style="display: none;">
+                Language Filter: 
+                    C#
+                  
+              </label>
+              <label id="cLabel" for="languageFilterImage" style="display: none;">
+                Language Filter: 
+                    C++
+                  
+              </label>
+              <label id="jsharpLabel" for="languageFilterImage" style="display: none;">
+                Language Filter: 
+                    J#
+                  
+              </label>
+              <label id="jsLabel" for="languageFilterImage" style="display: none;">
+                Language Filter: 
+                    JScript
+                  
+              </label>
+            </span>
+          </td>
+        </tr>
+      </table>
+      <span style="display:none" id="languageSpan">
+        <input id="vbDeclarationCheckbox" type="checkbox" name="languageFilter" onClick="SetLanguage(this)" />
+        <label class="languageFilter" for="vbDeclarationCheckbox">
+          Visual Basic (Declaration)
+        </label>
+        <br />
+        <input id="vbUsageCheckbox" type="checkbox" name="languageFilter" onClick="SetLanguage(this)" />
+        <label class="languageFilter" for="vbUsageCheckbox">
+          Visual Basic (Usage)
+        </label>
+        <br />
+        <input id="csCheckbox" type="checkbox" name="languageFilter" onClick="SetLanguage(this)" />
+        <label class="languageFilter" for="csCheckbox">
+          C#
+        </label>
+        <br />
+        <input id="cCheckbox" type="checkbox" name="languageFilter" onClick="SetLanguage(this)" />
+        <label class="languageFilter" for="cCheckbox">
+          C++
+        </label>
+        <br />
+        <input id="jsharpCheckbox" type="checkbox" name="languageFilter" onClick="SetLanguage(this)" />
+        <label class="languageFilter" for="jsharpCheckbox">
+          J#
+        </label>
+        <br />
+        <input id="jsCheckbox" type="checkbox" name="languageFilter" onClick="SetLanguage(this)" />
+        <label class="languageFilter" for="jsCheckbox">
+          JScript
+        </label>
+        <br />
+      </span>
+    </div>
+    <div id="mainSection">
+      <div id="mainBody">
+        <div id="allHistory" class="saveHistory" onsave="saveAll()" onload="loadAll()">
+        </div>
+        
+    <p>The PivotChart report view provides a complete, interactive PivotChart experience in a Microsoft Office Business Scorecard Manager 2005 Office Report View Web Part. For example, you can create a PivotChart report to show the percentage of total beverage sales that occurred in each store in a region.</p>
+    <div class="alert"><table width="100%" cellspacing="0" cellpadding="0"><tr><th align="left"><img class="note" src="../local/note.gif"></img>Note: </th></tr><tr><td>
+      To view and interact with PivotChart report views, you must have Office 2003 Web Components installed on your computer. If Office 2003 Web Components is not installed on your computer, a red <b>x</b> appears when you attempt to view a PivotTable report, PivotChart report, or a spreadsheet.<p></p>
+    </td></tr></table><p></p></div>
+  <h1 class="heading">To get help with PivotChart reports</h1><div id="procedureSection0" class="section"><ol><li>
+        <content xmlns="http://ddue.schemas.microsoft.com/authoring/2003/5">
+          <p xmlns="">In <b>Office Report View</b>, on the Office Web Components toolbar, click <b>Help</b>.</p>
+          <div class="alert" xmlns=""><table width="100%" cellspacing="0" cellpadding="0"><tr><th align="left"><img class="note" src="../local/note.gif"></img>Note: </th></tr><tr><td>
+            If the <b>Help</b> button does not appear on the Office Web Components toolbar, contact the administrator or business analyst responsible for creating this report view and ask them to increase the width of the report view.<p></p>
+          </td></tr></table><p></p></div>
+        </content>
+      </li><li>
+        <content xmlns="http://ddue.schemas.microsoft.com/authoring/2003/5">
+          <p xmlns="">In <b>Microsoft Office </b><b>2003</b><b> Chart Component Help</b>, browse the table of contents for instructions, or click the <b>Search</b> tab to find specific instructions for using full-text search.</p>
+        </content>
+      </li></ol></div><h1 class="heading">See Also</h1><div id="seeAlsoSection" class="section"><a href="3e85afeb-ee28-4893-8a13-3b0c1e984379.htm">Add an Office Report View Web Part to a Web page</a><br /><a href="31ffb151-0f4b-43b7-91ed-e6144e39242e.htm">Office Report View Web Part</a><br /><br /></div><!--[if gte IE 5]>
+			<tool:tip element="seeAlsoToolTip" avoidmouse="false"/><tool:tip element="languageFilterToolTip" avoidmouse="false"/>
+		<![endif]--></div>
+      <div id="footer">
+        
+      </div>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,22 @@
+Microsoft Visual Studio Solution File, Format Version 8.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PVMODX", "http://localhost/layouts/PVMODX/PVMODX.csproj", "{8512B7A3-3F63-4215-9DA6-C101F59A92F7}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Global
+	
+	GlobalSection(SolutionConfiguration) = preSolution
+		Debug = Debug
+		Release = Release
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{8512B7A3-3F63-4215-9DA6-C101F59A92F7}.Debug.ActiveCfg = Debug|.NET
+		{8512B7A3-3F63-4215-9DA6-C101F59A92F7}.Debug.Build.0 = Debug|.NET
+		{8512B7A3-3F63-4215-9DA6-C101F59A92F7}.Release.ActiveCfg = Release|.NET
+		{8512B7A3-3F63-4215-9DA6-C101F59A92F7}.Release.Build.0 = Release|.NET
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal

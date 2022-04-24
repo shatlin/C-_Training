@@ -1,0 +1,10 @@
+<MenuData 
+  ImagesBaseURL="images/"
+  DefaultItemSpacing="1"
+  DefaultGroupCssClass="MenuGroupV"
+  DefaultItemCssClass="MenuItemV" 
+  DefaultItemCssClassOver="MenuItemOverV" xmlns="ASP.NET Menu MenuData Schema"
+  Image="menubg.jpg" ImageOver="menubg.jpg"> 
+  <MenuGroup>
+  </MenuGroup>
+</MenuData> 

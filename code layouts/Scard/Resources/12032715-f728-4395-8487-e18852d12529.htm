@@ -1,0 +1,199 @@
+﻿<html DIR="LTR" xmlns:tool="http://www.microsoft.com/tooltip" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:ddue="http://ddue.schemas.microsoft.com/authoring/2003/5" xmlns:MSHelp="http://msdn.microsoft.com/mshelp">
+  <head>
+    <META HTTP-EQUIV="Pragma" content="no-cache" />
+    <META HTTP-EQUIV="Content-Type" CONTENT="text/html; CHARSET=utf-8" />
+    <META NAME="save" CONTENT="history" />
+    <title>Use a SQL Server Reporting Services report view</title>
+    
+    <link rel="stylesheet" type="text/css" href="../local/Classic.css">
+      
+    </link>
+    
+    <script src="../local/script.js">
+      
+    </script>
+  </head>
+  <body>
+    <input type="hidden" id="userDataCache" class="userDataStyle">
+    </input>
+    <input type="hidden" id="hiddenScrollOffset">
+    </input>
+    <img id="dropDownImage" style="display:none; height:0; width:0;" src="../local/drpdown.gif">
+      
+    </img>
+    <img id="dropDownHoverImage" style="display:none; height:0; width:0;" src="../local/drpdown_orange.gif">
+      
+    </img>
+    <img id="copyImage" style="display:none; height:0; width:0;" src="../local/copycode.gif">
+      
+    </img>
+    <img id="copyHoverImage" style="display:none; height:0; width:0;" src="../local/copycodeHighlight.gif">
+      
+    </img>
+    <img id="expandImage" style="display:none; height:0; width:0;" src="../local/exp.gif">
+      
+    </img>
+    <img id="collapseImage" style="display:none; height:0; width:0;" src="../local/collapse.gif">
+      
+    </img>
+    <img id="collapseAllImage" style="display:none; height:0; width:0;" src="../local/collall.gif">
+      
+    </img>
+    <img id="expandAllImage" style="display:none; height:0; width:0;" src="../local/expall.gif">
+      
+    </img>
+    <span id="expandalltext" style="display:none;">
+       Expand All
+    </span>
+    <span id="collapsealltext" style="display:none;">
+       Collapse All
+    </span>
+    <span id="alltext" style="display:none;">
+      All
+    </span>
+    <div id="header">
+      <table width="100%" id="topTable">
+        <tr id="headerTableRow1">
+          <td align="left">
+            <span id="runningHeaderText">
+              
+            </span>
+          </td>
+        </tr>
+        <tr id="headerTableRow2">
+          <td align="left">
+            <span id="nsrTitle">Use a SQL Server Reporting Services report view</span>
+          </td>
+        </tr>
+        <tr id="headerTableRow3">
+          <td>
+            <a href="#seeAlsoSection">
+              See Also
+            </a>
+          </td>
+        </tr>
+      </table>
+      <table width="100%" id="bottomTable" cellspacing="0" cellpadding="0">
+        <tr>
+          <td>
+            <span id="languageFilterToolTip" style="cursor:default;" onmouseover="languageFilterImage.src=dropDownHoverImage.src;" onfocusin="languageFilterImage.src=dropDownHoverImage.src;" onmouseout="languageFilterImage.src=dropDownImage.src;" onfocusout="languageFilterImage.src=dropDownImage.src;" tabindex="0">
+              <img id="languageFilterImage" src="../local/drpdown.gif">
+                
+              </img>
+              <label id="showAllLabel" for="languageFilterImage" style="display: none;">
+                Language Filter: 
+                    All
+                  
+              </label>
+              <label id="multipleLabel" for="languageFilterImage" style="display: none;">
+                Language Filter: 
+                    Multiple
+                  
+              </label>
+              <label id="vbLabel" for="languageFilterImage" style="display: none;">
+                Language Filter: 
+                    Visual Basic
+                  
+              </label>
+              <label id="csLabel" for="languageFilterImage" style="display: none;">
+                Language Filter: 
+                    C#
+                  
+              </label>
+              <label id="cLabel" for="languageFilterImage" style="display: none;">
+                Language Filter: 
+                    C++
+                  
+              </label>
+              <label id="jsharpLabel" for="languageFilterImage" style="display: none;">
+                Language Filter: 
+                    J#
+                  
+              </label>
+              <label id="jsLabel" for="languageFilterImage" style="display: none;">
+                Language Filter: 
+                    JScript
+                  
+              </label>
+            </span>
+          </td>
+        </tr>
+      </table>
+      <span style="display:none" id="languageSpan">
+        <input id="vbDeclarationCheckbox" type="checkbox" name="languageFilter" onClick="SetLanguage(this)" />
+        <label class="languageFilter" for="vbDeclarationCheckbox">
+          Visual Basic (Declaration)
+        </label>
+        <br />
+        <input id="vbUsageCheckbox" type="checkbox" name="languageFilter" onClick="SetLanguage(this)" />
+        <label class="languageFilter" for="vbUsageCheckbox">
+          Visual Basic (Usage)
+        </label>
+        <br />
+        <input id="csCheckbox" type="checkbox" name="languageFilter" onClick="SetLanguage(this)" />
+        <label class="languageFilter" for="csCheckbox">
+          C#
+        </label>
+        <br />
+        <input id="cCheckbox" type="checkbox" name="languageFilter" onClick="SetLanguage(this)" />
+        <label class="languageFilter" for="cCheckbox">
+          C++
+        </label>
+        <br />
+        <input id="jsharpCheckbox" type="checkbox" name="languageFilter" onClick="SetLanguage(this)" />
+        <label class="languageFilter" for="jsharpCheckbox">
+          J#
+        </label>
+        <br />
+        <input id="jsCheckbox" type="checkbox" name="languageFilter" onClick="SetLanguage(this)" />
+        <label class="languageFilter" for="jsCheckbox">
+          JScript
+        </label>
+        <br />
+      </span>
+    </div>
+    <div id="mainSection">
+      <div id="mainBody">
+        <div id="allHistory" class="saveHistory" onsave="saveAll()" onload="loadAll()">
+        </div>
+        
+    <p>The SQL Server Reporting Services report view uses SQL Server Reporting Services to provide interactive reports that can be displayed in a wide variety of formats.</p>
+    <p>If your organization uses SQL Server Reporting Services reports and has enabled their use in Microsoft Office Business Scorecard Manager 2005, you can view these reports in the Office Report View Web Part.</p>
+  <h1 class="heading">To use a SQL Server Reporting Services report view</h1><div id="procedureSection0" class="section"><ul><li>
+        <content xmlns="http://ddue.schemas.microsoft.com/authoring/2003/5">
+          <p xmlns="">In Office Report View, do any of the following:</p>
+          <ul xmlns=""><li>
+              To navigate within a reporting services report:<br></br>
+              On the Reporting Services toolbar, click <b>Show or Hide</b> <b>DocMap</b> to open the <b>DocMap</b> list. Then select an entry in the list. Each entry in the <b>DocMap</b> list corresponds to a section of the report.<br></br>
+            </li><li>
+              To navigate between pages in a SQL Server Reporting Services report:<br></br>
+              On the Reporting Services toolbar, click the forward and back arrows.<br></br>
+            </li><li>
+              To increase or decrease the visual display size of the SQL Server Reporting Services report:<br></br>
+              On the Reporting Services toolbar, click the arrow next to the <b>Zoom</b> box, and then click the zoom setting that you want to use.<br></br>
+            </li><li>
+              To search the SQL Server Reporting Services report for a specific word or number:<br></br>
+              In the <b>Find </b>text box, type the word or number, and then click <b>Find</b> to locate the first instance of the word or number in the report. Click <b>Next </b>to find the next instance of the word or number in the report.<br></br>
+            </li><li>
+              To export the SQL Server Reporting Services report for use in another application:<br></br>
+              On the Reporting Services toolbar, select a file format in the <b>Select a format</b> list, and then click <b>Export</b>.<br></br>
+            </li><li>
+              To refresh the SQL Server Reporting Services report:<br></br>
+              On the Reporting Services toolbar, click <b>Refresh</b>.<br></br>
+            </li><li>
+              To print a SQL Server Reporting Services report:<br></br>
+              On the Reporting Services toolbar, click <b>Print</b>.<br></br>
+            </li><li>
+              To read online help for SQL Server Reporting Services:<br></br>
+              On the Reporting Services toolbar, click <b>Help</b>.<br></br>
+            </li></ul>
+        </content>
+      </li></ul></div><h1 class="heading">See Also</h1><div id="seeAlsoSection" class="section"><a href="3e85afeb-ee28-4893-8a13-3b0c1e984379.htm">Add an Office Report View Web Part to a Web page</a><br /><a href="31ffb151-0f4b-43b7-91ed-e6144e39242e.htm">Office Report View Web Part</a><br /><br /></div><!--[if gte IE 5]>
+			<tool:tip element="seeAlsoToolTip" avoidmouse="false"/><tool:tip element="languageFilterToolTip" avoidmouse="false"/>
+		<![endif]--></div>
+      <div id="footer">
+        
+      </div>
+    </div>
+  </body>
+</html>

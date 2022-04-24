@@ -1,0 +1,29 @@
+Microsoft Visual Studio Solution File, Format Version 8.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExceptionTry", "ExceptionTry.csproj", "{26E23A6F-C09B-4A19-B197-2BD5E7590242}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BusinessLayer", "BusinessLayer\BusinessLayer.csproj", "{AA0C940E-B9DF-4224-ADC8-7529E44972B9}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfiguration) = preSolution
+		Debug = Debug
+		Release = Release
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{26E23A6F-C09B-4A19-B197-2BD5E7590242}.Debug.ActiveCfg = Debug|.NET
+		{26E23A6F-C09B-4A19-B197-2BD5E7590242}.Debug.Build.0 = Debug|.NET
+		{26E23A6F-C09B-4A19-B197-2BD5E7590242}.Release.ActiveCfg = Release|.NET
+		{26E23A6F-C09B-4A19-B197-2BD5E7590242}.Release.Build.0 = Release|.NET
+		{AA0C940E-B9DF-4224-ADC8-7529E44972B9}.Debug.ActiveCfg = Debug|.NET
+		{AA0C940E-B9DF-4224-ADC8-7529E44972B9}.Debug.Build.0 = Debug|.NET
+		{AA0C940E-B9DF-4224-ADC8-7529E44972B9}.Release.ActiveCfg = Release|.NET
+		{AA0C940E-B9DF-4224-ADC8-7529E44972B9}.Release.Build.0 = Release|.NET
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal

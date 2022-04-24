@@ -1,0 +1,5 @@
+E:\Shatlin\Work\trials\Threadings\Threadings\bin\Debug\Threadings.exe
+E:\Shatlin\Work\trials\Threadings\Threadings\bin\Debug\Threadings.pdb
+E:\Shatlin\Work\trials\Threadings\Threadings\obj\Debug\ResolveAssemblyReference.cache
+E:\Shatlin\Work\trials\Threadings\Threadings\obj\Debug\Threadings.exe
+E:\Shatlin\Work\trials\Threadings\Threadings\obj\Debug\Threadings.pdb

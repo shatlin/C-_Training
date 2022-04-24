@@ -1,0 +1,180 @@
+﻿<html DIR="LTR" xmlns:tool="http://www.microsoft.com/tooltip" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:ddue="http://ddue.schemas.microsoft.com/authoring/2003/5" xmlns:MSHelp="http://msdn.microsoft.com/mshelp">
+  <head>
+    <META HTTP-EQUIV="Pragma" content="no-cache" />
+    <META HTTP-EQUIV="Content-Type" CONTENT="text/html; CHARSET=utf-8" />
+    <META NAME="save" CONTENT="history" />
+    <title>Use a scorecard report view</title>
+    
+    <link rel="stylesheet" type="text/css" href="../local/Classic.css">
+      
+    </link>
+    
+    <script src="../local/script.js">
+      
+    </script>
+  </head>
+  <body>
+    <input type="hidden" id="userDataCache" class="userDataStyle">
+    </input>
+    <input type="hidden" id="hiddenScrollOffset">
+    </input>
+    <img id="dropDownImage" style="display:none; height:0; width:0;" src="../local/drpdown.gif">
+      
+    </img>
+    <img id="dropDownHoverImage" style="display:none; height:0; width:0;" src="../local/drpdown_orange.gif">
+      
+    </img>
+    <img id="copyImage" style="display:none; height:0; width:0;" src="../local/copycode.gif">
+      
+    </img>
+    <img id="copyHoverImage" style="display:none; height:0; width:0;" src="../local/copycodeHighlight.gif">
+      
+    </img>
+    <img id="expandImage" style="display:none; height:0; width:0;" src="../local/exp.gif">
+      
+    </img>
+    <img id="collapseImage" style="display:none; height:0; width:0;" src="../local/collapse.gif">
+      
+    </img>
+    <img id="collapseAllImage" style="display:none; height:0; width:0;" src="../local/collall.gif">
+      
+    </img>
+    <img id="expandAllImage" style="display:none; height:0; width:0;" src="../local/expall.gif">
+      
+    </img>
+    <span id="expandalltext" style="display:none;">
+       Expand All
+    </span>
+    <span id="collapsealltext" style="display:none;">
+       Collapse All
+    </span>
+    <span id="alltext" style="display:none;">
+      All
+    </span>
+    <div id="header">
+      <table width="100%" id="topTable">
+        <tr id="headerTableRow1">
+          <td align="left">
+            <span id="runningHeaderText">
+              
+            </span>
+          </td>
+        </tr>
+        <tr id="headerTableRow2">
+          <td align="left">
+            <span id="nsrTitle">Use a scorecard report view</span>
+          </td>
+        </tr>
+        <tr id="headerTableRow3">
+          <td>
+            <a href="#seeAlsoSection">
+              See Also
+            </a>
+          </td>
+        </tr>
+      </table>
+      <table width="100%" id="bottomTable" cellspacing="0" cellpadding="0">
+        <tr>
+          <td>
+            <span id="languageFilterToolTip" style="cursor:default;" onmouseover="languageFilterImage.src=dropDownHoverImage.src;" onfocusin="languageFilterImage.src=dropDownHoverImage.src;" onmouseout="languageFilterImage.src=dropDownImage.src;" onfocusout="languageFilterImage.src=dropDownImage.src;" tabindex="0">
+              <img id="languageFilterImage" src="../local/drpdown.gif">
+                
+              </img>
+              <label id="showAllLabel" for="languageFilterImage" style="display: none;">
+                Language Filter: 
+                    All
+                  
+              </label>
+              <label id="multipleLabel" for="languageFilterImage" style="display: none;">
+                Language Filter: 
+                    Multiple
+                  
+              </label>
+              <label id="vbLabel" for="languageFilterImage" style="display: none;">
+                Language Filter: 
+                    Visual Basic
+                  
+              </label>
+              <label id="csLabel" for="languageFilterImage" style="display: none;">
+                Language Filter: 
+                    C#
+                  
+              </label>
+              <label id="cLabel" for="languageFilterImage" style="display: none;">
+                Language Filter: 
+                    C++
+                  
+              </label>
+              <label id="jsharpLabel" for="languageFilterImage" style="display: none;">
+                Language Filter: 
+                    J#
+                  
+              </label>
+              <label id="jsLabel" for="languageFilterImage" style="display: none;">
+                Language Filter: 
+                    JScript
+                  
+              </label>
+            </span>
+          </td>
+        </tr>
+      </table>
+      <span style="display:none" id="languageSpan">
+        <input id="vbDeclarationCheckbox" type="checkbox" name="languageFilter" onClick="SetLanguage(this)" />
+        <label class="languageFilter" for="vbDeclarationCheckbox">
+          Visual Basic (Declaration)
+        </label>
+        <br />
+        <input id="vbUsageCheckbox" type="checkbox" name="languageFilter" onClick="SetLanguage(this)" />
+        <label class="languageFilter" for="vbUsageCheckbox">
+          Visual Basic (Usage)
+        </label>
+        <br />
+        <input id="csCheckbox" type="checkbox" name="languageFilter" onClick="SetLanguage(this)" />
+        <label class="languageFilter" for="csCheckbox">
+          C#
+        </label>
+        <br />
+        <input id="cCheckbox" type="checkbox" name="languageFilter" onClick="SetLanguage(this)" />
+        <label class="languageFilter" for="cCheckbox">
+          C++
+        </label>
+        <br />
+        <input id="jsharpCheckbox" type="checkbox" name="languageFilter" onClick="SetLanguage(this)" />
+        <label class="languageFilter" for="jsharpCheckbox">
+          J#
+        </label>
+        <br />
+        <input id="jsCheckbox" type="checkbox" name="languageFilter" onClick="SetLanguage(this)" />
+        <label class="languageFilter" for="jsCheckbox">
+          JScript
+        </label>
+        <br />
+      </span>
+    </div>
+    <div id="mainSection">
+      <div id="mainBody">
+        <div id="allHistory" class="saveHistory" onsave="saveAll()" onload="loadAll()">
+        </div>
+        
+    <p>The scorecard report view displays a scorecard view in the Office Report View Web Part. The scorecard view it displays is associated with a scorecard, key performance indicator (KPI), or objective that you select in the Office Scorecard View Web Part.</p>
+    <p>For example, a scorecard Web site might include an Office Scorecard View Web Part that shows a scorecard view of grocery store sales, budgets, and profits for stores in each city in Washington State, and an Office Report View Web Part that shows a scorecard view of budgets for each type of grocery store in Washington State. The scorecard might also include a PivotTable report view and a PivotChart report view, which are included in the Report View Web Part. When you click the budget KPI in the Office Scorecard View Web Part, the scorecard report view appears in the Office Report View Web Part, showing the budget for each grocery store in Washington State. When you click sales or profit KPIs in the Office Scorecard View Web Part, the PivotChart report view or PivotTable report view appears in the Office Report View Web Part.</p>
+    <p>Scorecard report views support the full range of scorecard view features. For more information about these features, see the topics listed under See Also.</p>
+  <h1 class="heading">To toggle between a scorecard report view and other available report views</h1><div id="procedureSection0" class="section"><ul><li>
+        <content xmlns="http://ddue.schemas.microsoft.com/authoring/2003/5">
+          <p xmlns="">In the Scorecard View Web Part, do one of the following:</p>
+          <ul xmlns=""><li>
+              To display a scorecard report view, click a scorecard, KPI, or objective associated with it.<br></br>
+            </li><li>
+              To display another available report view, click a scorecard, KPI, or objective associated with it.<br></br>
+            </li></ul>
+        </content>
+      </li></ul></div><h1 class="heading">See Also</h1><div id="seeAlsoSection" class="section"><a href="9a9fc97b-ca7e-4608-91b9-f550ab697bb9.htm">Add annotations to an Office Scorecard View Web Part</a><br /><a href="f66faff2-9dae-464f-a528-38d9ea001ed0.htm">Subscribe to an alert</a><br /><a href="69075885-d4df-485d-b2d0-740e92a280b9.htm">Expand or collapse rows</a><br /><a href="2aadbedb-a41f-43f6-9faf-3a0b0c353858.htm">Office Scorecard View Web Part</a><br /><a href="fc4968f2-b1dc-431f-ab47-0f0eaf357652.htm">Filter scorecard views</a><br /><br /></div><!--[if gte IE 5]>
+			<tool:tip element="seeAlsoToolTip" avoidmouse="false"/><tool:tip element="languageFilterToolTip" avoidmouse="false"/>
+		<![endif]--></div>
+      <div id="footer">
+        
+      </div>
+    </div>
+  </body>
+</html>

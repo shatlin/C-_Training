@@ -1,0 +1,5 @@
+E:\Shatlin\Work\trials\DictionariesComparison\DictionariesComparison\bin\Debug\DictionariesComparison.exe
+E:\Shatlin\Work\trials\DictionariesComparison\DictionariesComparison\bin\Debug\DictionariesComparison.pdb
+E:\Shatlin\Work\trials\DictionariesComparison\DictionariesComparison\obj\Debug\ResolveAssemblyReference.cache
+E:\Shatlin\Work\trials\DictionariesComparison\DictionariesComparison\obj\Debug\DictionariesComparison.exe
+E:\Shatlin\Work\trials\DictionariesComparison\DictionariesComparison\obj\Debug\DictionariesComparison.pdb

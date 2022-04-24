@@ -1,0 +1,10 @@
+bin\Debug\Listview.exe
+bin\Debug\Listview.pdb
+obj\Debug\ResolveAssemblyReference.cache
+obj\Debug\Listview.MT.resources
+obj\Debug\Listview.PhaseControl.resources
+obj\Debug\Listview.Properties.Resources.resources
+obj\Debug\Listview.csproj.GenerateResource.Cache
+obj\Debug\Listview.exe
+obj\Debug\Listview.pdb
+bin\Debug\Listview.exe.config

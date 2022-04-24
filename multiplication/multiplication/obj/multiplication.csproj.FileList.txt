@@ -1,0 +1,8 @@
+bin\Debug\multiplication.exe
+bin\Debug\multiplication.pdb
+obj\Debug\ResolveAssemblyReference.cache
+obj\Debug\multiplication.Form1.resources
+obj\Debug\multiplication.Properties.Resources.resources
+obj\Debug\multiplication.csproj.GenerateResource.Cache
+obj\Debug\multiplication.exe
+obj\Debug\multiplication.pdb

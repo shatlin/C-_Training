@@ -1,0 +1,10 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 9.00
+# Visual Studio 2005
+Project("{4F174C21-8C12-11D0-8340-0000F80270F8}") = "Project1", "Project1\Project1.dbp", "{F3D8914E-8E7A-4E91-A7DB-74CBECD65A1F}"
+EndProject
+Global
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

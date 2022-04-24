@@ -1,0 +1,5 @@
+E:\Shatlin\Work\trials\Serializations\Serializations\obj\Debug\ResolveAssemblyReference.cache
+E:\Shatlin\Work\trials\Serializations\Serializations\bin\Debug\Serializations.exe
+E:\Shatlin\Work\trials\Serializations\Serializations\bin\Debug\Serializations.pdb
+E:\Shatlin\Work\trials\Serializations\Serializations\obj\Debug\Serializations.exe
+E:\Shatlin\Work\trials\Serializations\Serializations\obj\Debug\Serializations.pdb

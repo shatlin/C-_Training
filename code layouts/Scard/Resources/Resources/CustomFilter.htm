@@ -1,0 +1,172 @@
+﻿<!-- _LocalBinding -->
+<!-- _lcid="1033" _version="11.12.1234" _dal="1" -->
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML>
+	<HEAD>
+		<!-- _locID_text="CustomFilter.Title" --><TITLE>Custom Filter</TITLE>
+		<meta http-equiv="content-type" content="text/html; charset=utf-8">
+		<meta http-equiv="content-language" content="en-us">
+		<META http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<meta name="cache-control" control="no-cache">
+		<meta http-equiv="pragma" control="no-cache">
+		<META content="MSHTML 6.00.3790.186" name="GENERATOR">
+		<META content="VisualStudio.HTML" name="ProgId">
+		<META content="Microsoft Visual Studio .NET 7.1" name="Originator">
+		<LINK href="/_layouts/1033/styles/ows.css" type="text/css" rel="stylesheet">
+			<SCRIPT language="javascript" id="clientEventHandlersJS">
+<!--
+
+
+function Button2_onclick() 
+{
+	window.returnValue = false;
+	window.close();
+}
+
+function EscapeForFilter(str)
+{
+	var r;
+	var re = /'/g;
+	r = str.replace(re, "''");   
+	
+	return(r);
+}
+
+var g_columnName;
+
+function GetData()
+{
+	// get the values as arguments and set the controls
+	winArgs = window.dialogArguments;
+	
+	if(winArgs)
+	{
+		var longName = winArgs[0];
+		var longNameArray = longName.split('§');
+		
+		filterColumn.innerText = longNameArray[0];
+		g_columnName = "[" + winArgs[0] + "]";
+	
+		var filterArray = winArgs[1].split(':');
+		var filterType = filterArray[0];
+		var filterValue = filterArray[1];
+	}
+	
+	
+}
+
+function SetData()
+{
+	var ret = window.dialogArguments[1];
+
+	if(Select1.selectedIndex != 0)
+	{
+		ret = "CUSTOM:";
+		
+		ret += g_columnName + 
+			" " + Select1.options(Select1.selectedIndex).value + " " + 
+			"'" + EscapeForFilter(Text1.value) + "'";
+		
+		if(Select2.selectedIndex != 0)
+		{
+			var conj = " AND ";
+			if(Radio2.checked)
+				conj = " OR ";
+			
+			ret += conj +
+				g_columnName + 
+				" " + Select2.options(Select2.selectedIndex).value + " " + 
+				"'" + EscapeForFilter(Text2.value) + "'";
+			
+		}
+	}
+
+	// pass the values back as arguments
+	window.returnValue = ret;
+	window.close();
+}	
+		
+function Close() 
+{
+	if (null == window.returnValue)
+	{
+		window.returnValue = false;
+	}
+}
+
+//-->
+			</SCRIPT>
+	</HEAD>
+	<BODY style="margin:10;" onload="GetData();" onunload="Close();">
+		<TABLE id="Table2" cellSpacing="0" cellPadding="0" width="100%" height="100%">
+			<TBODY>
+				<TR>
+					<TD class="ms-WPBody" vAlign="top">
+						<P>
+						<!-- _locID_text="CustomFilter.PageDirections" -->Show rows where:
+						<P>
+							<TABLE id="Table4" cellSpacing="0" cellPadding="3" width="100%" border="0">
+								<TR>
+									<TD nowrap id="filterColumn">
+									</TD>
+									<TD width="100%">
+										<HR style="color: gray; height: 1px; border-style:groove" width="100%">
+									</TD>
+								</TR>
+							</TABLE>
+						</P>
+					</TD>
+				</TR>
+				<tr>
+					<TD class="ms-WPBody" Align="center">
+						<TABLE id="Table3" height="0" cellSpacing="0" cellPadding="20" border="0">
+							<TR>
+								<TD width="100%">
+									<TABLE id="Table1" cellSpacing="1" cellPadding="1" width="300" border="0">
+										<TR>
+											<TD width="123"><SELECT id="Select1" name="Select1">
+													<OPTION value="" selected></OPTION>
+													<OPTION value="="><!-- _locID_text="CustomFilter.FilterTypes1.Equal" -->equals</OPTION>
+													<OPTION value="<>"><!-- _locID_text="CustomFilter.FilterTypes1.NotEqual" -->does not equal</OPTION>
+													<OPTION value=">"><!-- _locID_text="CustomFilter.FilterTypes1.Greater" -->is greater than</OPTION>
+													<OPTION value=">="><!-- _locID_text="CustomFilter.FilterTypes1.GreaterOrEqual" -->is greater than or equal to</OPTION>
+													<OPTION value="<"><!-- _locID_text="CustomFilter.FilterTypes1.Less" -->is less than</OPTION>
+													<OPTION value="<="><!-- _locID_text="CustomFilter.FilterTypes1.LessOrEqual" -->is less than or equal to</OPTION>
+												</SELECT></TD>
+											<TD><INPUT class="UserInput" id="Text1" type="text" name="Text1"></TD>
+										</TR>
+										<TR>
+											<TD align="right"><INPUT id="Radio1" type="radio" CHECKED value="and" name="RadioGroup1">&nbsp;<!-- _locID_text="CustomFilter.FilterJoin.And" -->And</TD>
+											<TD align="left"><INPUT id="Radio2" type="radio" value="or" name="RadioGroup1">&nbsp;<!-- _locID_text="CustomFilter.FilterJoin.Or" -->Or</TD>
+										</TR>
+										<TR>
+											<TD width="123"><SELECT id="Select2" name="Select2">
+													<OPTION value="" selected></OPTION>
+													<OPTION value="="><!-- _locID_text="CustomFilter.FilterTypes2.Equal" -->equals</OPTION>
+													<OPTION value="<>"><!-- _locID_text="CustomFilter.FilterTypes2.NotEqual" -->does not equal</OPTION>
+													<OPTION value=">"><!-- _locID_text="CustomFilter.FilterTypes2.Greater" -->is greater than</OPTION>
+													<OPTION value=">="><!-- _locID_text="CustomFilter.FilterTypes2.GreaterOrEqual" -->is greater than or equal to</OPTION>
+													<OPTION value="<"><!-- _locID_text="CustomFilter.FilterTypes2.Less" -->is less than</OPTION>
+													<OPTION value="<="><!-- _locID_text="CustomFilter.FilterTypes2.LessOrEqual" -->is less than or equal to</OPTION>
+												</SELECT></TD>
+											<TD><INPUT class="UserInput" id="Text2" type="text" name="Text2"></TD>
+										</TR>
+									</TABLE>
+								</TD>
+							</TR>
+						</TABLE>
+					</td>
+				</tr>
+				<TR>
+					<TD class="ms-WPBody" align="right" vAlign="bottom">
+						<INPUT class="UserButton" id="Button1" onclick="SetData()" type="button" value="   OK   " name="Button1">
+						<!-- _locID@value="CustomFilter.OKButton" _locComment="Button label" -->
+						&nbsp;
+						<INPUT class="UserButton" id="Button2" onclick="Button2_onclick()" type="button" value="Cancel" name="Button2">
+						<!-- _locID@value="CustomFilter.CancelButton" _locComment="Button label" -->
+						
+					</TD>
+				</TR>
+			</TBODY></TABLE>
+	</BODY>
+</HTML>

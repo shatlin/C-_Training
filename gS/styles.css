@@ -1,0 +1,147 @@
+/* V5.10 CSS - Feb.18 2005 */
+
+/* GLOBAL classes - skin & pages */
+td { font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 11px;}
+input { font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 11px; }
+textarea { font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 11px; }
+select { font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 11px; }
+
+/* Alert fonts*/
+.redfont {color: FF0000;}
+.greenfont {color: #006600;}
+.bluefont {color: #0000CC;}
+.alertfont {color: #FF0000;}
+
+/* Feedback fonts*/
+.positive {color: #009933;}
+.neutral {color: #666666;}
+.negative {color: #FF0000;}
+
+/* SYSTEM classes - skin & pages */
+.sell {font-size: 10px; font-weight: bold; color: #FFFFFF; }
+.sell a {font-size: 10px; font-weight: bold; color: #FFFFFF; }
+.sell a:hover { font-size: 10px; font-weight: bold; color: #FFFF00; text-decoration: none; }
+
+.item { font-size: 10px; color: #000000; text-decoration: none;}
+.item a { font-size: 10px; color: #000000; text-decoration: underline; }
+.item a:hover { font-size: 10px; color: #FF0000; text-decoration: none; }
+
+.bolditem { font-size: 10px; font-weight: bold; color: #000000; text-decoration: none;}
+.bolditem a { font-size: 10px; font-weight: bold; color: #000000; text-decoration: underline; }
+.bolditem a:hover { font-size: 10px; font-weight: bold; color: #FF0000; text-decoration: none; }
+
+.hlitem { font-size: 10px; color: #000000; text-decoration: none; }
+.hlitem a { font-size: 10px; text-decoration: underline; color: #000000; background: #00CCFF; }
+.hlitem a:hover { font-size: 10px; color: #FFFFFF; text-decoration: none; background: #00CCFF;}
+
+.hlbolditem { font-size: 10px; font-weight: bold; color: #000000; text-decoration: none; }
+.hlbolditem a { font-size: 10px; font-weight: bold; text-decoration: underline; color: #000000; background: #00CCFF;}
+.hlbolditem a:hover { font-size: 10px; font-weight: bold; color: #FFFFFF; text-decoration: none; background: #00CCFF;}
+
+.smallfont { font-size: 10px; color: #000000; text-decoration: none;}
+.smallfont a { font-size: 10px; color: #000000; text-decoration: underline; }
+.smallfont a:hover { font-size: 10px; color: #FF0000; text-decoration: none; }
+
+.contentfont { font-size: 11px; color: #000000; text-decoration: none; }
+.contentfont a { font-size: 11px; color: #000000; text-decoration: underline; }
+.contentfont a:hover { font-size: 11px; color: #FF0000; text-decoration: underline; }
+
+.submenu {font-size: 10px; font-weight: bold; color: #FFFFFF; text-decoration: none;}
+.submenu a {font-size: 10px; font-weight: bold; color: #FFFFFF; text-decoration: underline;}
+.submenu a:hover { font-size: 10px; font-weight: bold; color: #FFFF00; text-decoration: none; }
+
+.border {border: 1px solid #999999;}
+
+/* SYSTEM classes - auctiondetails.php */
+.topitempage { background-color: #FFFFE1; border: 1px dashed #CFCFCF; margin-bottom: 5px; padding: 6px; line-height: 18px; }
+.topitempage a { font-size: 11px; color: #000000; text-decoration: underline; }
+.topitempage a:hover { font-size: 11px; color: #FF0000; text-decoration: underline; }
+.itemid { font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 16px; color: #ffffff; font-weight: bold;}
+.itemidend { font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 12px; color: #ffffff; font-weight: bold;}
+.subitem { background-color: #F8F8F8; border-left: 1px solid #003C85; border-bottom: 1px solid #003C85; border-right: 1px solid #003C85;}
+.counter {background-color: #C3F400; border: 2px dotted #184300; color: #184300; font-weight: bold; font-size: 12px;}
+.picselect { background-color: #FFFFE1; border: 1px dashed #CFCFCF; color: #000000; font-weight: bold;}
+.picselectmain { background-color: #e9e9eb;}
+.leftborder {border-left: 1px solid #003C85;} 
+
+.gradient {border: 1px solid #999999; background-color: #FFFFE1; } /* featured items images bg */
+
+/* SYSTEM classes - border for Steps in sell item pages */
+.sellsteptab { border-left: 1px solid #003C85; border-bottom: 1px solid #003C85; border-right: 1px solid #003C85;}
+
+/* SYSTEM classes - font in Members area  */
+.boldgrey { font-size: 10px; color: #666666; font-weight: bold; text-decoration: none;}
+.boldgrey a { font-size: 10px; color: #666666; font-weight: bold; text-decoration: underline;}
+.boldgrey a:hover { font-size: 10px; color: #666666; font-weight: bold; text-decoration: none;}
+
+.membutt {font-size: 10px; font-weight: bold; color: #003399; text-decoration: none;}
+
+/* SYSTEM classes - register.php */
+.creg2 {background-color: #FaFaFa;} /* lightgray light */
+.creg3 {background-color: #F4F4F4;} /* lightgray middle*/
+.creg4 {background-color: #ffffff;} /* inside bg for tables */
+.creg5 {background-color: #999999;} /* block tables */
+.regborder {background-color: #ffffff; border: 1px dotted #999999;}
+.regsignup {background-color: #FFE23B; border: 2px dotted #CC0000; color: #CC0000; font-weight: bold; font-size: 12px;}
+.reguser { font-size: 9px; background-color: #FFFFFF; color: #666666;} /* small text for comments*/
+.pintext { font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 18px; font-weight: bold; color: #666666; }
+
+/* SYSTEM classes - links color in categories headers */
+.cathead { font-size: 10px; font-weight: normal; color: #FFFFFF; text-decoration: none; }
+.cathead a { font-size: 10px; color: #FFFFFF; text-decoration: underline; }
+.cathead a:hover { font-size: 10px; color: #FFEE00; text-decoration: none; }
+
+/* SYSTEM classes - error & alert message */
+.errormessage { background-color: #FFFFE1; border: 1px dashed #CFCFCF; margin-top: 8px; margin-bottom: 16px; padding: 6px; line-height: 18px; }
+
+/* V5 & system classes &  - main colors */
+.c1 {background-color: #0082D6; color: #FFFFFF; font-weight: bold;} /* blue */
+.c1 a {color: #FFFFFF; font-weight: bold;}
+.c1 a:hover {color: #FFFFFF; font-weight: bold;}
+.c2 {background-color: #F8F8F8;} /* lightgray light */
+.c3 {background-color: #F0F0F0;} /* lightgray middle*/
+.c4 {background-color: #E1E2E4;} /* lightgray dark */
+.c5 {background-color: #666666;} 
+.c6 {background-color: #EEF2F9; color: #003399;}
+.c7 {background-color: #E3E4EB;} /* bluegray admin area */
+
+/* V5 classes - featured items colors in main page */
+
+.feat1 { font-size: 10px; background-color: #FF6600; color: white; font-weight: bold; }
+.feat2 { font-size: 10px; background-color: #0F3F79; color: white; font-weight: bold;}
+.feat3 { font-size: 10px; background-color: #FFCC00; color: black; font-weight: bold;}
+.feat3 a { font-size: 10px; background-color: #FFCC00; color: black; font-weight: bold;}
+.feat3 a:hover { font-size: 10px; background-color: #FFCC00; color: black; font-weight: bold;}
+
+/* V5 classes - featured items colors in main page */
+a.hidelayer:link {font-size: 14px; color: #ffffff; font-weight: bold; text-decoration: none;}
+a.hidelayer:visited {font-size: 14px; color: #ffffff; font-weight: bold; text-decoration: none;}
+
+/* V5 classes - main nav menu colors */
+.mainmenu {font-size: 10px; font-weight: bold; color: #FFFFFF; }
+.mainmenu a {font-size: 10px; font-weight: bold; color: #FFFFFF; text-decoration: none;}
+.mainmenu a:hover { font-size: 10px; font-weight: bold; color: #FFFF33;}
+.user { font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 10px; font-weight: bold; color: #666666; }
+
+/* V5 classes - other */
+.search {font-size: 10px; font-weight: bold; color: #444444; text-decoration: none;}
+.search a {font-size: 10px; font-weight: bold; color: #444444; text-decoration: none;}
+.search a:hover { font-size: 10px; font-weight: bold; color: #3399FF; text-decoration: underline; }
+
+.welcome { font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 10px; font-weight: bold; color: #003399; }
+
+.categories { font-family: Verdana, Arial, Helvetica, sans-serif; color: #666666; font-size: 11px; text-decoration: none;}
+.categories a { font-family: Verdana, Arial, Helvetica, sans-serif; color: #666666; font-size: 11px; text-decoration: none;}
+.categories a:hover { font-family: Verdana, Arial, Helvetica, sans-serif; color: #666666; font-size: 11px; text-decoration: underline;}
+
+.maintext { font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 11px; }
+.title { font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 12px; }
+
+/* V5 classes - footer.php */
+.footerfont { font-size: 10px; color: #444444; text-decoration: none; }
+.footerfont a { font-size: 10px; color: #444444; text-decoration: underline; }
+.footerfont a:hover { font-size: 10px; color: #0033FF; text-decoration: none; }
+
+.footerfont1 { font-size: 10px; font-weight: bold; color: #FFFFFF; text-decoration: none; }
+.footerfont1 a { font-size: 10px; color: #FFFFFF; text-decoration: none; }
+.footerfont1 a:hover { font-size: 10px; color: #FF9900; text-decoration: underline; }

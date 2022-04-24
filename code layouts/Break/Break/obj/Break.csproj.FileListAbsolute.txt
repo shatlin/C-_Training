@@ -1,0 +1,7 @@
+E:\Shatlin\shatlin_old\shatlin\Technical\Projects\learning\code layouts\Break\Break\obj\Debug\Break.exe
+E:\Shatlin\shatlin_old\shatlin\Technical\Projects\learning\code layouts\Break\Break\obj\Debug\Break.pdb
+E:\Shatlin\shatlin_old\shatlin\Technical\Projects\learning\code layouts\Break\Break\bin\Debug\Break.exe
+E:\Shatlin\shatlin_old\shatlin\Technical\Projects\learning\code layouts\Break\Break\bin\Debug\Break.pdb
+E:\Shatlin\shatlin_old\shatlin\Technical\Projects\learning\code layouts\Break\Break\obj\Debug\ResolveAssemblyReference.cache
+E:\Shatlin\shatlin_old\shatlin\Technical\Projects\learning\code layouts\Break\Break\obj\Debug\Break.Form1.resources
+E:\Shatlin\shatlin_old\shatlin\Technical\Projects\learning\code layouts\Break\Break\obj\Debug\Break.csproj.GenerateResource.Cache

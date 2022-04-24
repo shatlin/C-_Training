@@ -1,0 +1,5 @@
+E:\Shatlin\Work\trials\DictionaryCollections\DictionaryCollections\bin\Debug\DictionaryCollections.exe
+E:\Shatlin\Work\trials\DictionaryCollections\DictionaryCollections\bin\Debug\DictionaryCollections.pdb
+E:\Shatlin\Work\trials\DictionaryCollections\DictionaryCollections\obj\Debug\ResolveAssemblyReference.cache
+E:\Shatlin\Work\trials\DictionaryCollections\DictionaryCollections\obj\Debug\DictionaryCollections.exe
+E:\Shatlin\Work\trials\DictionaryCollections\DictionaryCollections\obj\Debug\DictionaryCollections.pdb

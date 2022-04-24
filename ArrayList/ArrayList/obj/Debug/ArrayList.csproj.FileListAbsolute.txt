@@ -1,0 +1,5 @@
+E:\Shatlin\Work\trials\ArrayList\ArrayList\obj\Debug\ResolveAssemblyReference.cache
+E:\Shatlin\Work\trials\ArrayList\ArrayList\bin\Debug\ArrayList.exe
+E:\Shatlin\Work\trials\ArrayList\ArrayList\bin\Debug\ArrayList.pdb
+E:\Shatlin\Work\trials\ArrayList\ArrayList\obj\Debug\ArrayList.exe
+E:\Shatlin\Work\trials\ArrayList\ArrayList\obj\Debug\ArrayList.pdb

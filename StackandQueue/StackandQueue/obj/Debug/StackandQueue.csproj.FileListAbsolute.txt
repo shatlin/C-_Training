@@ -1,0 +1,5 @@
+E:\Shatlin\Work\trials\StackandQueue\StackandQueue\obj\Debug\ResolveAssemblyReference.cache
+E:\Shatlin\Work\trials\StackandQueue\StackandQueue\bin\Debug\StackandQueue.exe
+E:\Shatlin\Work\trials\StackandQueue\StackandQueue\bin\Debug\StackandQueue.pdb
+E:\Shatlin\Work\trials\StackandQueue\StackandQueue\obj\Debug\StackandQueue.exe
+E:\Shatlin\Work\trials\StackandQueue\StackandQueue\obj\Debug\StackandQueue.pdb

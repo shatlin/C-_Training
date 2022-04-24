@@ -1,0 +1,177 @@
+﻿<!-- _LocalBinding -->
+<!-- _lcid="1033" _version="11.12.1234" _dal="1" -->
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML>
+	<HEAD>
+		<!-- _locID_text="Top10Filter.Title" --><TITLE>Numerical Ranking</TITLE>
+		<meta http-equiv="content-type" content="text/html; charset=utf-8">
+		<meta http-equiv="content-language" content="en-us">
+		<meta name="cache-control" control="no-cache">
+		<meta http-equiv="pragma" control="no-cache">
+		<META content="MSHTML 6.00.3790.186" name="GENERATOR">
+		<META content="VisualStudio.HTML" name="ProgId">
+		<META content="Microsoft Visual Studio .NET 7.1" name="Originator">
+		<LINK href="/_layouts/1033/styles/ows.css" type="text/css" rel="stylesheet">
+			<SCRIPT language="javascript" id="clientEventHandlersJS">
+		
+<!--
+
+function validateNumber(field, msg, min, max) 
+{
+	if (!min) { min = 0 }
+	if (!max) { max = 255 }
+
+	if ( (parseInt(field.value) != field.value) ||
+         (parseInt(field.value) < min) ||
+         (parseInt(field.value) > max) 
+       )
+    {
+		alert(msg);
+		field.focus();
+		field.select();
+		return false;
+	}
+
+	return true;
+}
+
+
+
+
+function Button2_onclick() 
+{
+	window.returnValue = false;
+	window.close();
+}
+
+function GetData()
+{
+	//default values
+	var isBottom = 0;
+	var number = 10;
+	var isPercentage = 0;
+	
+	// get the values as arguments and set the controls
+	winArgs = window.dialogArguments;
+	
+	if(winArgs)
+	{
+	
+		var filterArray = winArgs.split(':');
+		var filterType = filterArray[0];
+		var filterValue = filterArray[1];
+		
+		number = filterValue;
+		
+		switch(filterType)
+		{
+			case "TOP_ITEM":
+				isBottom = 0;
+				isPercentage = 0;
+				break;
+			
+			case "TOP_PERCENTAGE":
+				isBottom = 0;
+				isPercentage = 1;
+				break;
+			
+			case "BOTTOM_ITEM":
+				isBottom = 1;
+				isPercentage = 0;
+				break;
+			
+			case "BOTTOM_PERCENTAGE":
+				isBottom = 1;
+				isPercentage = 1;
+				break;
+				
+			default:
+				isBottom = 0;
+				isPercentage = 0;
+				number = 10;
+				break;
+		}
+	}
+	
+	Select1.selectedIndex = isBottom;
+	Select2.selectedIndex = isPercentage;
+	Text1.value = number;
+}
+
+function SetData()
+{
+	var ret = "";
+
+	//validation
+	/* _locID_text="Top10Filter.InvalidTextMessage" */
+	if(! validateNumber(Text1, "Please enter a number between 1 and 500 in the textbox.", 1, 500))
+	{
+		return;
+	}
+
+	// get the new dialog values
+	var isBottom = Select1.selectedIndex;
+	var isPercentage = Select2.selectedIndex;
+	
+	if(isBottom == 1)
+		ret += "BOTTOM_";
+	else
+		ret += "TOP_";
+	
+	if(isPercentage == 1)
+		ret += "PERCENTAGE";
+	else
+		ret += "ITEM";
+	
+		
+	ret += ":" + Text1.value;
+	
+	// pass the values back as arguments
+	window.returnValue = ret;
+	window.close();
+}			
+
+function Close() 
+{
+	if (null == window.returnValue)
+	{
+		window.returnValue = false;
+	}
+}
+
+//-->
+			</SCRIPT>
+	</HEAD>
+	<BODY style="margin:10; " onload="GetData();" onunload="Close();">
+		<TABLE id="Table2" cellSpacing="0" cellPadding="0" width="100%" height="100%">
+			<TBODY>
+				<TR>
+					<TD class="ms-WPBody" vAlign="top">
+						<!-- _locID_text="Top10Filter.PageDirections" -->Show<BR>
+						<HR style="color: gray; height: 1px; border-style:groove" width="100%">
+					</TD>
+				</TR>
+				<TR>
+					<TD class="ms-WPBody" Align="center">
+						<SELECT id="Select1" name="Select1">
+							<OPTION selected><!-- _locID_text="Top10Filter.FilterSort.Top" -->Top</OPTION>
+							<OPTION><!-- _locID_text="Top10Filter.FilterSort.Bottom" -->Bottom</OPTION>
+						</SELECT>&nbsp;&nbsp;&nbsp;<INPUT class="UserInput" id="Text1" type="text" size="9" name="Text1">&nbsp;&nbsp;&nbsp;<SELECT id="Select2" name="Select3">
+							<OPTION selected><!-- _locID_text="Top10Filter.SelectionType.Item" -->Items</OPTION>
+							<OPTION><!-- _locID_text="Top10Filter.SelectionType.Percentage" -->Percentage</OPTION>
+						</SELECT>
+					</TD>
+				</TR>
+				<TR>
+					<TD class="ms-WPBody" align="right" vAlign="bottom">
+						<INPUT class="UserButton" id="Button3" onclick="SetData()" type="button" value="   OK   " name="Button1">
+						<!-- _locID@value="Top10Filter.OKButton" _locComment="Button label" -->
+							&nbsp;
+						<INPUT class="UserButton" id="Button4" onclick="Button2_onclick()" type="button" value="Cancel" name="Button2">
+						<!-- _locID@value="Top10Filter.CancelButton" _locComment="Button label" -->
+
+					</TD>
+				</TR>
+			</TBODY></TABLE>
+	</BODY>
+</HTML>

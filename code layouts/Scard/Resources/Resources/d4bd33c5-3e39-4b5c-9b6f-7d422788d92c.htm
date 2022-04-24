@@ -1,0 +1,205 @@
+﻿<html DIR="LTR" xmlns:tool="http://www.microsoft.com/tooltip" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:ddue="http://ddue.schemas.microsoft.com/authoring/2003/5" xmlns:MSHelp="http://msdn.microsoft.com/mshelp">
+  <head>
+    <META HTTP-EQUIV="Pragma" content="no-cache" />
+    <META HTTP-EQUIV="Content-Type" CONTENT="text/html; CHARSET=utf-8" />
+    <META NAME="save" CONTENT="history" />
+    <title>Add an Office Scorecard View Web Part to a Web page</title>
+    
+    <link rel="stylesheet" type="text/css" href="../local/Classic.css">
+      
+    </link>
+    
+    <script src="../local/script.js">
+      
+    </script>
+  </head>
+  <body>
+    <input type="hidden" id="userDataCache" class="userDataStyle">
+    </input>
+    <input type="hidden" id="hiddenScrollOffset">
+    </input>
+    <img id="dropDownImage" style="display:none; height:0; width:0;" src="../local/drpdown.gif">
+      
+    </img>
+    <img id="dropDownHoverImage" style="display:none; height:0; width:0;" src="../local/drpdown_orange.gif">
+      
+    </img>
+    <img id="copyImage" style="display:none; height:0; width:0;" src="../local/copycode.gif">
+      
+    </img>
+    <img id="copyHoverImage" style="display:none; height:0; width:0;" src="../local/copycodeHighlight.gif">
+      
+    </img>
+    <img id="expandImage" style="display:none; height:0; width:0;" src="../local/exp.gif">
+      
+    </img>
+    <img id="collapseImage" style="display:none; height:0; width:0;" src="../local/collapse.gif">
+      
+    </img>
+    <img id="collapseAllImage" style="display:none; height:0; width:0;" src="../local/collall.gif">
+      
+    </img>
+    <img id="expandAllImage" style="display:none; height:0; width:0;" src="../local/expall.gif">
+      
+    </img>
+    <span id="expandalltext" style="display:none;">
+       Expand All
+    </span>
+    <span id="collapsealltext" style="display:none;">
+       Collapse All
+    </span>
+    <span id="alltext" style="display:none;">
+      All
+    </span>
+    <div id="header">
+      <table width="100%" id="topTable">
+        <tr id="headerTableRow1">
+          <td align="left">
+            <span id="runningHeaderText">
+              
+            </span>
+          </td>
+        </tr>
+        <tr id="headerTableRow2">
+          <td align="left">
+            <span id="nsrTitle">Add an Office Scorecard View Web Part to a Web page</span>
+          </td>
+        </tr>
+        <tr id="headerTableRow3">
+          <td>
+            <a href="#seeAlsoSection">
+              See Also
+            </a>
+          </td>
+        </tr>
+      </table>
+      <table width="100%" id="bottomTable" cellspacing="0" cellpadding="0">
+        <tr>
+          <td>
+            <span id="languageFilterToolTip" style="cursor:default;" onmouseover="languageFilterImage.src=dropDownHoverImage.src;" onfocusin="languageFilterImage.src=dropDownHoverImage.src;" onmouseout="languageFilterImage.src=dropDownImage.src;" onfocusout="languageFilterImage.src=dropDownImage.src;" tabindex="0">
+              <img id="languageFilterImage" src="../local/drpdown.gif">
+                
+              </img>
+              <label id="showAllLabel" for="languageFilterImage" style="display: none;">
+                Language Filter: 
+                    All
+                  
+              </label>
+              <label id="multipleLabel" for="languageFilterImage" style="display: none;">
+                Language Filter: 
+                    Multiple
+                  
+              </label>
+              <label id="vbLabel" for="languageFilterImage" style="display: none;">
+                Language Filter: 
+                    Visual Basic
+                  
+              </label>
+              <label id="csLabel" for="languageFilterImage" style="display: none;">
+                Language Filter: 
+                    C#
+                  
+              </label>
+              <label id="cLabel" for="languageFilterImage" style="display: none;">
+                Language Filter: 
+                    C++
+                  
+              </label>
+              <label id="jsharpLabel" for="languageFilterImage" style="display: none;">
+                Language Filter: 
+                    J#
+                  
+              </label>
+              <label id="jsLabel" for="languageFilterImage" style="display: none;">
+                Language Filter: 
+                    JScript
+                  
+              </label>
+            </span>
+          </td>
+        </tr>
+      </table>
+      <span style="display:none" id="languageSpan">
+        <input id="vbDeclarationCheckbox" type="checkbox" name="languageFilter" onClick="SetLanguage(this)" />
+        <label class="languageFilter" for="vbDeclarationCheckbox">
+          Visual Basic (Declaration)
+        </label>
+        <br />
+        <input id="vbUsageCheckbox" type="checkbox" name="languageFilter" onClick="SetLanguage(this)" />
+        <label class="languageFilter" for="vbUsageCheckbox">
+          Visual Basic (Usage)
+        </label>
+        <br />
+        <input id="csCheckbox" type="checkbox" name="languageFilter" onClick="SetLanguage(this)" />
+        <label class="languageFilter" for="csCheckbox">
+          C#
+        </label>
+        <br />
+        <input id="cCheckbox" type="checkbox" name="languageFilter" onClick="SetLanguage(this)" />
+        <label class="languageFilter" for="cCheckbox">
+          C++
+        </label>
+        <br />
+        <input id="jsharpCheckbox" type="checkbox" name="languageFilter" onClick="SetLanguage(this)" />
+        <label class="languageFilter" for="jsharpCheckbox">
+          J#
+        </label>
+        <br />
+        <input id="jsCheckbox" type="checkbox" name="languageFilter" onClick="SetLanguage(this)" />
+        <label class="languageFilter" for="jsCheckbox">
+          JScript
+        </label>
+        <br />
+      </span>
+    </div>
+    <div id="mainSection">
+      <div id="mainBody">
+        <div id="allHistory" class="saveHistory" onsave="saveAll()" onload="loadAll()">
+        </div>
+        
+    <p>To add a Microsoft Office Business Scorecard Manager Server Office Scorecard View Web Part to a Windows SharePoint Services-based or SharePoint Portal Server 2003-based Web page, use the following instructions.</p>
+  <h1 class="heading">To add a Scorecard Web Part to a Web page</h1><div id="procedureSection0" class="section"><ol><li>
+        <content xmlns="http://ddue.schemas.microsoft.com/authoring/2003/5">
+          <p xmlns="">On the SharePoint Portal Server 2003-based or Windows SharePoint Services-based scorecard Web page, click <b>Modify Shared Page</b>.</p>
+          <p xmlns="">If the <b>Modify Shared Page</b> link does not appear on the Web page, you must first click <b>Edit Page</b>.</p>
+        </content>
+      </li><li>
+        <content xmlns="http://ddue.schemas.microsoft.com/authoring/2003/5">
+          <p xmlns="">Click <b>Design This Page</b>.</p>
+        </content>
+      </li><li>
+        <content xmlns="http://ddue.schemas.microsoft.com/authoring/2003/5">
+          <p xmlns="">Click <b>Modify Shared Page</b> again, point to <b>Add Web Parts</b>, and then click <b>Browse</b>.</p>
+          <p xmlns="">If the <b>Modify Shared Page</b> link does not appear on the Web page, you must first click <b>Edit Page</b>.</p>
+        </content>
+      </li><li>
+        <content xmlns="http://ddue.schemas.microsoft.com/authoring/2003/5">
+          <p xmlns="">In the <b>Add Web Parts</b> navigation bar, under <b>Browse</b>, click <b>Virtual Server Gallery</b>.</p>
+        </content>
+      </li><li>
+        <content xmlns="http://ddue.schemas.microsoft.com/authoring/2003/5">
+          <p xmlns="">Under <b>Web Part List</b>, drag <b>Office Scorecard View</b> to the <b>Left</b> or <b>Right</b> zone on the Web page.</p>
+        </content>
+      </li><li>
+        <content xmlns="http://ddue.schemas.microsoft.com/authoring/2003/5">
+          <p xmlns="">In the <b>Business Scorecard</b> navigation bar, select a scorecard in the <b>Select a Scorecard</b> list.</p>
+        </content>
+      </li><li>
+        <content xmlns="http://ddue.schemas.microsoft.com/authoring/2003/5">
+          <p xmlns="">In the <b>Select a View</b> list, select the scorecard view that you want to display, and then click <b>OK</b>.</p>
+        </content>
+      </li></ol>
+      <content xmlns="http://ddue.schemas.microsoft.com/authoring/2003/5">
+        <div class="alert" xmlns=""><table width="100%" cellspacing="0" cellpadding="0"><tr><th align="left"><img class="note" src="../local/note.gif"></img>Note: </th></tr><tr><td>
+          To display a different scorecard view in the Office Scorecard View Web Part, click the arrow in the upper-right corner of the Office Scorecard View Web Part. Then click <b>Modify Shared Web Part</b> to select a different scorecard view from the <b>Select a View</b> list.<p></p>
+        </td></tr></table><p></p></div>
+      </content>
+    </div><h1 class="heading">See Also</h1><div id="seeAlsoSection" class="section"><a href="2aadbedb-a41f-43f6-9faf-3a0b0c353858.htm">Office Scorecard View Web Part</a><br /><br /></div><!--[if gte IE 5]>
+			<tool:tip element="seeAlsoToolTip" avoidmouse="false"/><tool:tip element="languageFilterToolTip" avoidmouse="false"/>
+		<![endif]--></div>
+      <div id="footer">
+        
+      </div>
+    </div>
+  </body>
+</html>

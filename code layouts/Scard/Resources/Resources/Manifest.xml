@@ -1,0 +1,140 @@
+<?xml version="1.0" ?>
+<!-- You need only one manifest per CAB project for Web Part Deployment.-->
+<!-- This manifest file can have multiple assembly nodes.-->
+<WebPartManifest xmlns="http://schemas.microsoft.com/WebPart/v2/Manifest">
+	<Assemblies>
+		<Assembly FileName="Microsoft.PerformanceManagement.Scorecards.WebParts.dll">
+			<ClassResources>
+				<ClassResource FileName="AlertDetail.aspx" />
+				<ClassResource FileName="AnnotationDetail.aspx" />
+				<ClassResource FileName="ReportViewImage.aspx" />
+				<ClassResource FileName="IndicatorImage.aspx" />
+				<ClassResource FileName="ScorecardPage.aspx" />
+
+				<ClassResource FileName="Popup.aspx" />
+				<ClassResource FileName="PageFilterPopup.aspx" />
+				<ClassResource FileName="PageFilterPopupPartial.aspx" />
+				
+				<ClassResource FileName="Alert.htm" />
+				<ClassResource FileName="Annotation.htm" />
+				<ClassResource FileName="Top10Filter.htm" />
+				<ClassResource FileName="CustomFilter.htm" />
+				
+				<ClassResource FileName="ScorecardMain.js" />
+				<ClassResource FileName="ScorecardScript.js" />
+				<ClassResource FileName="SortAndFilter.js" />
+				<ClassResource FileName="ViewTableToolbar.js" />
+				
+				<ClassResource FileName="corner.gif" />
+				<ClassResource FileName="Drill.gif" />
+				<ClassResource FileName="plus.gif" />
+				<ClassResource FileName="minus.gif" />
+				<ClassResource FileName="small_up_arrow.gif" />
+				<ClassResource FileName="small_down_arrow.gif" />
+				<ClassResource FileName="Indicator3DefaultBand1.gif" />
+				<ClassResource FileName="Indicator3DefaultBand2.gif" />
+				<ClassResource FileName="Indicator3DefaultBand3.gif" />
+				<ClassResource FileName="ErrorLarge.gif" />
+				<ClassResource FileName="ErrorSmall.gif" />
+				<ClassResource FileName="Folder.gif" />
+				
+				<ClassResource FileName="icon.editpagefilters.gif" />
+				<ClassResource FileName="icon.collapseall.gif" />
+				<ClassResource FileName="icon.expandall.gif" />
+				<ClassResource FileName="icon.filter.gif" />
+				<ClassResource FileName="icon.enableannotations.gif" />
+				<ClassResource FileName="icon.disableannotations.gif" />
+				<ClassResource FileName="icon.filtermode.gif" />
+				<ClassResource FileName="icon.viewmode.gif" />
+				<ClassResource FileName="icon.back.gif" />
+				<ClassResource FileName="icon.alert_remove.gif" />
+				<ClassResource FileName="icon.alert_add.gif" />
+				<ClassResource FileName="icon.alert.gif" />
+				<ClassResource FileName="icon.preview.gif" />
+				<ClassResource FileName="icon.edit.gif" />
+				<ClassResource FileName="Icon.Kpi.gif" />
+				<ClassResource FileName="Icon.Scorecard.gif" />
+				<ClassResource FileName="html\12032715-f728-4395-8487-e18852d12529.htm" />
+				<ClassResource FileName="html\9a9fc97b-ca7e-4608-91b9-f550ab697bb9.htm" />
+				<ClassResource FileName="html\67deb2f7-c75d-4596-beef-5ed091cb19fe.htm" />
+				<ClassResource FileName="html\2293c579-43b5-4645-91fa-29cc28084082.htm" />
+				<ClassResource FileName="html\2445dcf8-6157-496b-b4f1-486b2570cd75.htm" />
+				<ClassResource FileName="html\38734c10-72d0-47d6-8266-89fd535af639.htm" />
+				<ClassResource FileName="html\69075885-d4df-485d-b2d0-740e92a280b9.htm" />
+				<ClassResource FileName="html\97168137-e280-485a-9839-253cec52e1d3.htm" />
+				<ClassResource FileName="html\d8f86048-39fd-44f6-818a-5c98eb443dfa.htm" />
+				<ClassResource FileName="html\ef363939-7e99-407f-844b-a1e6c6c94a24.htm" />
+				<ClassResource FileName="html\f22d248e-bd2e-4b81-8b21-82b9ac569005.htm" />
+				<ClassResource FileName="html\f66faff2-9dae-464f-a528-38d9ea001ed0.htm" />
+				<ClassResource FileName="html\fc4968f2-b1dc-431f-ab47-0f0eaf357652.htm" />
+
+				<ClassResource FileName="html\2aadbedb-a41f-43f6-9faf-3a0b0c353858.htm" />
+				<ClassResource FileName="html\2c033bdf-ae82-43d7-8a22-580d74c7e130.htm" />
+				<ClassResource FileName="html\31ffb151-0f4b-43b7-91ed-e6144e39242e.htm" />
+				<ClassResource FileName="html\3e85afeb-ee28-4893-8a13-3b0c1e984379.htm" />
+				<ClassResource FileName="html\5f3734cb-78e0-48a5-b06d-56f80ee0666a.htm" />
+				<ClassResource FileName="html\7e7337d6-d740-4610-b14a-1e03443cacd0.htm" />
+				<ClassResource FileName="html\9ee44ae3-18d3-41f6-bb5a-4864149a9cb4.htm" />
+				<ClassResource FileName="html\d4bd33c5-3e39-4b5c-9b6f-7d422788d92c.htm" />
+				<ClassResource FileName="html\d53b7530-3381-47a9-8129-ee2380e559da.htm" />
+				<ClassResource FileName="html\e95cba3f-fca7-449e-8e2c-f3471e857efd.htm" />
+				<ClassResource FileName="local\box.gif" />
+				<ClassResource FileName="local\Caution.gif" />
+				<ClassResource FileName="local\CFW.gif" />
+				<ClassResource FileName="local\Classic.css" />
+				<ClassResource FileName="local\collall.gif" />
+				<ClassResource FileName="local\collapse.gif" />
+				<ClassResource FileName="local\Local_262259649_editpagefilters.gif" />
+				<ClassResource FileName="local\Local_587339635_viewmode.gif" />
+				<ClassResource FileName="local\Local_712661559_collapseall.gif" />
+				<ClassResource FileName="local\Local_1244732990_filtermode.gif" />
+				<ClassResource FileName="local\Local_1735239965_filter.gif" />
+				<ClassResource FileName="local\Local_2021104346_expandall.gif" />
+				<ClassResource FileName="local\copycode.gif" />
+				<ClassResource FileName="local\copycodeHighlight.gif" />
+				<ClassResource FileName="local\drpdown.gif" />
+				<ClassResource FileName="local\drpdown_orange.gif" />
+				<ClassResource FileName="local\drpdown_orange_up.gif" />
+				<ClassResource FileName="local\drpup.gif" />
+				<ClassResource FileName="local\exp.gif" />
+				<ClassResource FileName="local\expall.gif" />
+				<ClassResource FileName="local\filter1a.gif" />
+				<ClassResource FileName="local\filter1c.gif" />
+				<ClassResource FileName="local\greencheck.gif" />
+				<ClassResource FileName="local\greychck.gif" />
+				<ClassResource FileName="local\load.gif" />
+				<ClassResource FileName="local\load_hover.gif" />
+				<ClassResource FileName="local\note.gif" />
+				<ClassResource FileName="local\protevent.gif" />
+				<ClassResource FileName="local\protfield.gif" />
+				<ClassResource FileName="local\protmethod.gif" />
+				<ClassResource FileName="local\protoperator.gif" />
+				<ClassResource FileName="local\protproperty.gif" />
+				<ClassResource FileName="local\pubevent.gif" />
+				<ClassResource FileName="local\pubfield.gif" />
+				<ClassResource FileName="local\pubmethod.gif" />
+				<ClassResource FileName="local\puboperator.gif" />
+				<ClassResource FileName="local\pubproperty.gif" />
+				<ClassResource FileName="local\requirements1a.gif" />
+				<ClassResource FileName="local\requirements1c.gif" />
+				<ClassResource FileName="local\samples.js" />
+				<ClassResource FileName="local\save.gif" />
+				<ClassResource FileName="local\save_hover.gif" />
+				<ClassResource FileName="local\script.js" />
+				<ClassResource FileName="local\security.gif" />
+				<ClassResource FileName="local\seealso1a.gif" />
+				<ClassResource FileName="local\seealso1c.gif" />
+				<ClassResource FileName="local\static.gif" />
+				<ClassResource FileName="local\tooltip.htc" />
+			</ClassResources>
+			<SafeControls>
+				<SafeControl Namespace="Microsoft.PerformanceManagement.Scorecards.WebParts" TypeName="*" />
+			</SafeControls>
+
+		</Assembly>
+	</Assemblies>
+	<DwpFiles>
+		<DwpFile FileName="ScorecardViewWebPart.dwp" />
+		<DwpFile FileName="ReportViewWebPart.dwp" />
+	</DwpFiles>
+</WebPartManifest>

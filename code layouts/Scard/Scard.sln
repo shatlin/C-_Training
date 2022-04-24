@@ -1,0 +1,21 @@
+Microsoft Visual Studio Solution File, Format Version 8.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Scard", "http://localhost/_layouts/Scard/Scard.csproj", "{0C73A892-D7E5-4A77-B80F-41B1090B8E38}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfiguration) = preSolution
+		Debug = Debug
+		Release = Release
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{0C73A892-D7E5-4A77-B80F-41B1090B8E38}.Debug.ActiveCfg = Debug|.NET
+		{0C73A892-D7E5-4A77-B80F-41B1090B8E38}.Debug.Build.0 = Debug|.NET
+		{0C73A892-D7E5-4A77-B80F-41B1090B8E38}.Release.ActiveCfg = Release|.NET
+		{0C73A892-D7E5-4A77-B80F-41B1090B8E38}.Release.Build.0 = Release|.NET
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal

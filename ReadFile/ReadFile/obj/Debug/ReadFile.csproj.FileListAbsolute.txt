@@ -1,0 +1,5 @@
+E:\Shatlin\Work\trials\ReadFile\ReadFile\bin\Debug\ReadFile.exe
+E:\Shatlin\Work\trials\ReadFile\ReadFile\bin\Debug\ReadFile.pdb
+E:\Shatlin\Work\trials\ReadFile\ReadFile\obj\Debug\ResolveAssemblyReference.cache
+E:\Shatlin\Work\trials\ReadFile\ReadFile\obj\Debug\ReadFile.exe
+E:\Shatlin\Work\trials\ReadFile\ReadFile\obj\Debug\ReadFile.pdb

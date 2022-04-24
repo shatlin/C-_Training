@@ -1,0 +1,92 @@
+<STYLE TYPE="text/css">
+<!-- 
+#txt {font: 10pt "verdana", "arial", "helvetica"; color: #000000}
+#notice { font: 8pt "verdana", "arial", "helvetica"; color: #cc0000 }
+#ttl { font: bold 13pt "arial",  "verdana", "helvetica" }
+#subttl { font: bold 11pt "arial",  "verdana", "helvetica"; color: #cc0000 }
+#small {font: 7.5pt "verdana", "arial", "helvetica" }
+#smallr {font: 7.5pt "verdana", "arial", "helvetica" }
+#desc { font: bold 21px/25px "arial"; letter-spacing:1pt; color:#ffffff }
+
+body {background:url(http://green.bidz.com/img/dot_bg.gif); background-color:#ffffff }
+b { font-weight:700 }
+P { font: 10pt "verdana", "arial", "helvetica"; color: #000000 }
+blockquote { font: 10pt "verdana", "arial", "helvetica"; color: #000000 }
+li { font: 10pt "verdana", "arial", "helvetica"; color: #000000 }
+dd { font: 10pt "verdana", "arial", "helvetica"; color: #000000 }
+dt { font: 10pt "verdana", "arial", "helvetica"; color: #000000 }
+td.txt { font: 10pt "verdana", "arial", "helvetica"; color: #000000 }
+th {font: 10pt "verdana", "arial", "helvetica"; color: #000000}
+
+a:link { font: 10pt "verdana", "arial", "helvetica"; color: #000099 }
+a:active { font: 10pt "verdana", "arial", "helvetica"; color: #666666 }
+a:visited { font: 10pt "verdana", "arial", "helvetica"; color: #000099 }
+a:hover { font: 10pt "verdana", "arial", "helvetica"; text-decoration:none; color: #000099 }
+
+a.wht:link { font: 10pt "verdana", "arial", "helvetica"; text-decoration:none; color: #ffffff }
+a.wht:active { font: 10pt "verdana", "arial", "helvetica"; color: #003399 }
+a.wht:visited { font: 10pt "verdana", "arial", "helvetica"; text-decoration:none; color: #ffffff }
+a.wht:hover { font: 10pt "verdana", "arial", "helvetica"; color: #003399 }
+
+a.sm:link { font: 7.5pt "verdana", "arial", "helvetica"; text-decoration: none; color: #ffffff }
+a.sm:active { font: 7.5pt "verdana", "arial", "helvetica"; text-decoration: none; color: #ffcc33 }
+a.sm:visited { font: 7.5pt "verdana", "arial", "helvetica"; text-decoration: none; color: #ffffff }
+a.sm:hover { font: 7.5pt "verdana", "arial", "helvetica"; text-decoration: underline; color: #ffcc33 }
+.submenu { font: 7.5pt "verdana", "arial", "helvetica"; color: #ffffff; text-align:center }
+
+a.foot:link { font: 8pt/15pt "Verdana" ,"Arial"; text-decoration: none; color: #ffffff }
+a.foot:active { font: 8pt/15pt "Verdana" ,"Arial"; text-decoration: none; color: #ffcc33 }
+a.foot:visited { font: 8pt/15pt "Verdana" ,"Arial"; text-decoration: none; color: #ffffff }
+a.foot:hover { font: 8pt/15pt "Verdana" ,"Arial"; text-decoration: none; color: #ffcc33 }
+.footer { font: 8pt/15pt "Verdana" ,"Arial"; color:#ffffff; text-align: center; border-top-width: 1px; border-bottom-width: 1px; border-left-width: 0px; border-right-width: 0px; border-color:#000000; border-style: solid }
+
+a.cat:link { font: 8pt "verdana", "arial", "helvetica"; color: #000099 }
+a.cat:active { font: 8pt "verdana", "arial", "helvetica"; color: #666666 }
+a.cat:visited { font: 8pt "verdana", "arial", "helvetica"; color: #000099 }
+a.cat:hover { font: 8pt "verdana", "arial", "helvetica"; color: #000000 }
+.cat { font: 8pt "verdana", "arial", "helvetica"; }
+
+a.ln:link { font: 7.5pt  "verdana", "arial", "helvetica"; text-decoration: none; color: #ffcc33 }
+a.ln:active { font: 7.5pt  "verdana", "arial", "helvetica"; text-decoration: none; color: #ffffff }
+a.ln:visited { font: 7.5pt  "verdana", "arial", "helvetica"; text-decoration: none; color: #ffcc33 }
+a.ln:hover { font: 7.5pt  "verdana", "arial", "helvetica"; text-decoration: none; color: #ffffff }
+.ln { font: 7.5pt  "verdana", "arial", "helvetica"; }
+
+a.green:link {font: 10pt "verdana", "arial", "helvetica"; color: #333333}
+a.green:active {font: 10pt "verdana", "arial", "helvetica"; color: #669966}
+a.green:visited {font: 10pt "verdana", "arial", "helvetica"; color: #333333}
+a.green:hover {font: 10pt "verdana", "arial", "helvetica"; color: #669966}
+
+a.ftr:link { font: 7.5pt/11pt "verdana", "arial", "helvetica"; color: #000099 }
+a.ftr:active { font: 7.5pt/11pt "verdana", "arial", "helvetica"; color: #666666 }
+a.ftr:visited { font: 7.5pt/11pt "verdana", "arial", "helvetica"; color: #000099 }
+a.ftr:hover { font: 7.5pt/11pt "verdana", "arial", "helvetica"; color: #9999CC }
+
+.imgbrdr {border-width:1px; border-style: solid; border-color:#CCCCCC}
+.border {border-top-width: 0px; border-bottom-width: 1px; border-left-width: 0px; border-right-width: 0px; border-color: #000000; border-style: solid }
+.border2 {border-top-width: 1px; border-bottom-width: 0px; border-left-width: 0px; border-right-width: 0px; border-color: #000000; border-style: solid }
+.borderall {border-top-width: 1px; border-bottom-width: 1px; border-left-width: 1px; border-right-width: 1px; border-color: #000000; border-style: solid }
+.bordergall {border-top-width: 1px; border-bottom-width: 1px; border-left-width: 1px; border-right-width: 1px; border-color: #cccccc; border-style: solid }
+.bordergbt {border-top-width: 0px; border-bottom-width: 1px; border-left-width: 0px; border-right-width: 0px; border-color: #cccccc; border-style: solid }
+.bordergry { border-top-width: 0px; border-bottom-width: 1px; border-left-width: 0px; border-right-width: 0px; border-color: #eeeeee; border-style: solid }
+.borderdot {border-color: #666666;border-width: 1px; border-style: dotted; margin:6}
+.lineht1 { line-height: 1pt }
+.font1pt { font-size: 1pt }
+
+.albg { background-repeat: no-repeat;
+	    background-position: bottom right }
+		
+
+a.bar:link { font: 8pt/15pt "Verdana" ,"Arial"; text-decoration: none; color: #666666 }
+a.bar:active { font: 8pt/15pt "Verdana" ,"Arial"; text-decoration: none; color: #0066cc }
+a.bar:visited { font: 8pt/15pt "Verdana" ,"Arial"; text-decoration: none; color: #666666 }
+a.bar:hover { font: 8pt/15pt "Verdana" ,"Arial"; text-decoration: none; color: #0066cc }		
+
+
+
+-->
+</style>
+
+
+
+

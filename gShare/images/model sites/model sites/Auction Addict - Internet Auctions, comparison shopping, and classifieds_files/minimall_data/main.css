@@ -1,0 +1,341 @@
+.mmBorder
+{
+	width:468px;
+	height:60px;
+	position:absolute;
+	background: #fff;
+	z-index: -1;
+}
+
+.mm
+{
+	width:466px;
+	height:58px;
+	position:relative;
+	top: 1px;
+	left: 1px;
+	background: #fff;
+}
+
+.mmLogo
+{
+	position: absolute;
+	left: 440;
+	top: 8px;
+	z-index: 200;
+}
+
+.mmTabs
+{
+	position : relative;
+	left : 73px;
+	top : 1px;
+}
+
+/****************************
+ * prices
+ * 
+ */
+
+.mmVendors
+{
+	position: absolute;
+	left: 2px;
+	width: 380px;
+	height: 31px;
+	overflow:hidden;
+	top: 1px;
+	font-family:Verdana,Arial,sans-serif;
+	font-size:12px;
+	color: #000;
+}
+
+.mmVendorLogo
+{
+	position:absolute;
+	left: 110px;
+	top: 0px;
+	width:88px;
+	height:29px !important;
+}
+
+.mmVendorLogoText
+{
+	display: none;
+	position:absolute;
+	left: 5px;
+	top: 0px;
+	width:46px;
+	height:22px;
+	font-family:Verdana,Arial,sans-serif;
+	font-size:11px;
+	color: #000;
+	text-align: center;
+}
+
+.mmVendorHeaderText
+{
+	display: none;
+	position:absolute;
+	left: 145px;
+	top: 1px;
+	width:46px;
+	height:28px;
+	font-family:Verdana,Arial,sans-serif;
+	font-size:11px;
+	color: #000;
+	text-align: center;
+}
+
+.mmVendorName1
+{
+	position:absolute;
+	width: 120px;
+	left: 200px;
+	top: 4px;
+	height:20px;
+	overflow:hidden;
+	color:#00f;
+	text-decoration:underline;
+	font-family:Verdana,Arial,sans-serif;
+	font-weight:bold;
+	font-size:10pt;
+}
+
+.mmVendorPrice1
+{
+	position:absolute;
+	width: 75px;
+	left: 322px;
+	top: 4px;
+	height:20px;
+	overflow:hidden;
+	color:#00f;
+	text-decoration:underline;
+	font-family:Verdana,Arial,sans-serif;
+	font-weight:bold;
+	font-size:10pt;
+}
+
+.mmVendorOfferText
+{
+	position:absolute;
+	overflow:hidden;
+	display:inline;
+	left: 1px;
+	top: 2px;
+	width: 105px;
+	height:26px;
+	font-family:Verdana,Arial,sans-serif;
+	font-size:9px;
+	color: #000;
+}
+
+/****************************
+ * review
+ * 
+ */
+
+.mmReview
+{
+	position: absolute;
+	left: 2px;
+	width: 380px;
+	height: 26px;
+	overflow:hidden;
+	top: 2px;
+	font-family:Verdana,Arial,sans-serif;
+	font-size:12px;
+	color: #000;
+}
+
+.mmReviewTitle
+{
+	position: absolute;
+	top: 7px;
+	left: 5px;
+	width: 375px;
+	height: 19px;
+	overflow:hidden;
+	margin-bottom:6px;
+	color: #00f;
+	text-decoration:underline;
+	font-family:Verdana,Arial,sans-serif;
+	font-weight:bold;
+	font-size:10pt;
+}
+
+/****************************
+ * description
+ * 
+ */
+
+.mmProductTitle
+{
+	width: 372px;
+	height: 14px;
+	overflow:hidden;
+	position:absolute;
+	left: 5px;
+	top:  15px;
+	color: #000;
+	font-family:Verdana,Arial,sans-serif;
+	font-weight:bold;
+	font-size:8pt;
+	z-index: 200;
+}
+
+.mmProductLabel
+{
+	display:none;
+	width: 86px;
+	height: 14px;
+	overflow:hidden;
+	position:absolute;
+	left: 5px;
+	top:  16px;
+	color: #000;
+	font-family:Verdana,Arial,sans-serif;
+	font-weight:bold;
+	font-size:8pt;
+	z-index: 200;
+}
+
+.mmProductVendor
+{
+	width: 372px;
+	height: 14px;
+	overflow:hidden;
+	position:absolute;
+	left: 5px;
+	top:  1px;
+	color: #00f;
+	text-decoration:underline;
+	font-family:Verdana,Arial,sans-serif;
+	font-weight:bold;
+	font-size:8pt;
+	z-index: 200;
+}
+
+.mmProductImage
+{
+	width:55px;
+	height:55px;
+	left: 10px;
+	top: 2px;
+	position: absolute;
+}
+
+.mmDescriptionText
+{
+	position:absolute;
+	width: 310px;
+	height: 30px;
+	left:2px;
+	top: 1px;
+	overflow:hidden;
+	font-family:Verdana,Arial,sans-serif;
+	font-size:12px;
+	color: #000;
+}
+
+.mmDescriptionReadMore
+{
+	position:absolute;
+	left: 315px;
+	top: 3px;
+	width:67px;
+	color: #00f;
+	text-decoration:underline;
+	font-family:Verdana,Arial,sans-serif;
+	font-weight:bold;
+	font-size:8pt;
+	text-align: center;
+}
+
+
+/****************************
+ * search
+ * 
+ */
+
+.mmSearchTextBox
+{
+	position:absolute;
+	top: 5px;
+	left: 65px;
+	width: 240px;
+}
+
+.mmSearchSubmit
+{
+	position:absolute;
+	top: 5px;
+	left: 310px;
+	width: 55px;
+	margin-left:10px;
+}
+
+.mmSearchTitle
+{
+	position:absolute;
+	top: 7px;
+	left: 5px;
+	width: 55px;
+	height: 22px;
+	color: #000;
+	font-family:Verdana,Arial,sans-serif;
+	font-weight:bold;
+	font-size:10pt;
+}
+
+
+.tabPanelGroup 
+{
+	font-family:Arial,sans-serif;
+	font-size: 11px;
+	position:relative;
+}
+
+.tabPanel 
+{
+	border: solid 1px #919b9c;
+	position:absolute;
+	z-index:0;
+	display:none;
+	overflow:hidden;
+}
+
+.tabGroup 
+{
+	margin-left: 5px;
+}
+
+.tabLabel
+{
+	margin-top: 3px;
+}
+
+.tabDefault, .tabSelected , .tabHover
+{
+	cursor: default;
+	background-repeat:no-repeat;
+	background-position: center middle;
+	text-align:center;
+	display:inline;
+	width: 70px;
+	height: 20px;
+	position:absolute;
+	top:5px;
+}
+
+.tabSelected
+{ 
+	background-repeat:no-repeat;
+	background-position: center middle;
+	width: 70px;
+	height: 25px;
+	top:0px;
+}
+
+

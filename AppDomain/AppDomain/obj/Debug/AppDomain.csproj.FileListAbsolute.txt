@@ -1,0 +1,5 @@
+E:\Shatlin\Work\trials\AppDomain\AppDomain\bin\Debug\AppDomain.exe
+E:\Shatlin\Work\trials\AppDomain\AppDomain\bin\Debug\AppDomain.pdb
+E:\Shatlin\Work\trials\AppDomain\AppDomain\obj\Debug\ResolveAssemblyReference.cache
+E:\Shatlin\Work\trials\AppDomain\AppDomain\obj\Debug\AppDomain.exe
+E:\Shatlin\Work\trials\AppDomain\AppDomain\obj\Debug\AppDomain.pdb

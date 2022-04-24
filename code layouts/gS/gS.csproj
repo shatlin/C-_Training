@@ -1,0 +1,1506 @@
+<VisualStudioProject>
+    <CSHARP
+        ProjectType = "Web"
+        ProductVersion = "7.10.3077"
+        SchemaVersion = "2.0"
+        ProjectGuid = "{73CA97FF-5C83-4B66-8D86-C17D4636F02E}"
+    >
+        <Build>
+            <Settings
+                ApplicationIcon = ""
+                AssemblyKeyContainerName = ""
+                AssemblyName = "gS"
+                AssemblyOriginatorKeyFile = ""
+                DefaultClientScript = "JScript"
+                DefaultHTMLPageLayout = "Grid"
+                DefaultTargetSchema = "IE50"
+                DelaySign = "false"
+                OutputType = "Library"
+                PreBuildEvent = ""
+                PostBuildEvent = ""
+                RootNamespace = "gS"
+                RunPostBuildEvent = "OnBuildSuccess"
+                StartupObject = ""
+            >
+                <Config
+                    Name = "Debug"
+                    AllowUnsafeBlocks = "false"
+                    BaseAddress = "285212672"
+                    CheckForOverflowUnderflow = "false"
+                    ConfigurationOverrideFile = ""
+                    DefineConstants = "DEBUG;TRACE"
+                    DocumentationFile = ""
+                    DebugSymbols = "true"
+                    FileAlignment = "4096"
+                    IncrementalBuild = "false"
+                    NoStdLib = "false"
+                    NoWarn = ""
+                    Optimize = "false"
+                    OutputPath = "bin\"
+                    RegisterForComInterop = "false"
+                    RemoveIntegerChecks = "false"
+                    TreatWarningsAsErrors = "false"
+                    WarningLevel = "4"
+                />
+                <Config
+                    Name = "Release"
+                    AllowUnsafeBlocks = "false"
+                    BaseAddress = "285212672"
+                    CheckForOverflowUnderflow = "false"
+                    ConfigurationOverrideFile = ""
+                    DefineConstants = "TRACE"
+                    DocumentationFile = ""
+                    DebugSymbols = "false"
+                    FileAlignment = "4096"
+                    IncrementalBuild = "false"
+                    NoStdLib = "false"
+                    NoWarn = ""
+                    Optimize = "true"
+                    OutputPath = "bin\"
+                    RegisterForComInterop = "false"
+                    RemoveIntegerChecks = "false"
+                    TreatWarningsAsErrors = "false"
+                    WarningLevel = "4"
+                />
+            </Settings>
+            <References>
+                <Reference
+                    Name = "System"
+                    AssemblyName = "System"
+                    HintPath = "..\..\..\..\..\..\..\..\WINDOWS\Microsoft.NET\Framework\v1.1.4322\System.dll"
+                />
+                <Reference
+                    Name = "System.Drawing"
+                    AssemblyName = "System.Drawing"
+                    HintPath = "..\..\..\..\..\..\..\..\WINDOWS\Microsoft.NET\Framework\v1.1.4322\System.Drawing.dll"
+                />
+                <Reference
+                    Name = "System.Data"
+                    AssemblyName = "System.Data"
+                    HintPath = "..\..\..\..\..\..\..\..\WINDOWS\Microsoft.NET\Framework\v1.1.4322\System.Data.dll"
+                />
+                <Reference
+                    Name = "System.Web"
+                    AssemblyName = "System.Web"
+                    HintPath = "..\..\..\..\..\..\..\..\WINDOWS\Microsoft.NET\Framework\v1.1.4322\System.Web.dll"
+                />
+                <Reference
+                    Name = "System.XML"
+                    AssemblyName = "System.Xml"
+                    HintPath = "..\..\..\..\..\..\..\..\WINDOWS\Microsoft.NET\Framework\v1.1.4322\System.XML.dll"
+                />
+            </References>
+        </Build>
+        <Files>
+            <Include>
+                <File
+                    RelPath = "AssemblyInfo.cs"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Datalayer.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Error.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Error.aspx.cs"
+                    DependentUpon = "Error.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Error.aspx.resx"
+                    DependentUpon = "Error.aspx.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Global.asax"
+                    SubType = "Component"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Global.asax.cs"
+                    DependentUpon = "Global.asax"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Global.asax.resx"
+                    DependentUpon = "Global.asax.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "gShare.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "gShare.aspx.cs"
+                    DependentUpon = "gShare.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "gShare.aspx.resx"
+                    DependentUpon = "gShare.aspx.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "home.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "home.aspx.cs"
+                    DependentUpon = "home.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "home.aspx.resx"
+                    DependentUpon = "home.aspx.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Register.aspx"
+                    SubType = "Form"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Register.aspx.cs"
+                    DependentUpon = "Register.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Register.aspx.resx"
+                    DependentUpon = "Register.aspx.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "styles.css"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Template.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Template.aspx.cs"
+                    DependentUpon = "Template.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Template.aspx.resx"
+                    DependentUpon = "Template.aspx.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Utilities.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Web.config"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\model sites\model sites\ac_files\0517578069.jpg"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\model sites\model sites\ac_files\0609607111.jpg"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\model sites\model sites\ac_files\0764112945.jpg"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\model sites\model sites\ac_files\0764505785.jpg"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\model sites\model sites\ac_files\ads.htm"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\model sites\model sites\ac_files\agtitle.jpg"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\model sites\model sites\ac_files\calmed.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\model sites\model sites\ac_files\copyright.js"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\model sites\model sites\ac_files\dirbook.jpg"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\model sites\model sites\ac_files\mags.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\model sites\model sites\ac_files\red_vote.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\model sites\model sites\ac_files\schools.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\model sites\model sites\ac_files\search.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\model sites\model sites\ac_files\show_ads"
+                    BuildAction = "None"
+                />
+                <File
+                    RelPath = "images\model sites\model sites\ac_files\software.jpg"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\model sites\model sites\ac_files\space.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\model sites\model sites\ac_files\wanted.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\model sites\model sites\amazon_files\add-favorites.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\model sites\model sites\amazon_files\amazon-visa-65x41.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\model sites\model sites\amazon_files\amzn-logo-118w.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\model sites\model sites\amazon_files\B00005N7PZ.jpg"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\model sites\model sites\amazon_files\B00007GUIO.jpg"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\model sites\model sites\amazon_files\B00009K91A.jpg"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\model sites\model sites\amazon_files\B0000BVF1N.jpg"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\model sites\model sites\amazon_files\B00017WXVQ.jpg"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\model sites\model sites\amazon_files\B0002WTL06.jpg"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\model sites\model sites\amazon_files\B000681LS6.jpg"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\model sites\model sites\amazon_files\B0006B29WA.jpg"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\model sites\model sites\amazon_files\B0006FTU3M.jpg"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\model sites\model sites\amazon_files\B0007KZRYW.jpg"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\model sites\model sites\amazon_files\B0007N54CY-110.jpg"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\model sites\model sites\amazon_files\B0007RTC6E.jpg"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\model sites\model sites\amazon_files\B00093FZ2Q.jpg"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\model sites\model sites\amazon_files\B0009MKDPQ.jpg"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\model sites\model sites\amazon_files\B0009Q4UBK.jpg"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\model sites\model sites\amazon_files\B0009RKSA6.jpg"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\model sites\model sites\amazon_files\B0009RO28A.jpg"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\model sites\model sites\amazon_files\B0009YV2V8.jpg"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\model sites\model sites\amazon_files\B000A1N0EW_Clearance.jpg"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\model sites\model sites\amazon_files\B000AMDOEM.jpg"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\model sites\model sites\amazon_files\B000AXVNIA.jpg"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\model sites\model sites\amazon_files\B000B649VO.jpg"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\model sites\model sites\amazon_files\B000BYSMCS.jpg"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\model sites\model sites\amazon_files\B000C8VXII.jpg"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\model sites\model sites\amazon_files\B000EG6MPM.jpg"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\model sites\model sites\amazon_files\B000EHZZ3G.jpg"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\model sites\model sites\amazon_files\B000EI5DV4.jpg"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\model sites\model sites\amazon_files\B000EPJBJC.jpg"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\model sites\model sites\amazon_files\B000ESFRAG.jpg"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\model sites\model sites\amazon_files\babiesrus_logo.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\model sites\model sites\amazon_files\buybox-button-find-gifts-2.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\model sites\model sites\amazon_files\cap-a9-3.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\model sites\model sites\amazon_files\ce-bes_gw-tcg_soon.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\model sites\model sites\amazon_files\drop-down-icon-small-arrow.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\model sites\model sites\amazon_files\endcap-a9-go-2.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\model sites\model sites\amazon_files\eyebrow-upper-left-corner.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\model sites\model sites\amazon_files\eyebrow-upper-right-corner.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\model sites\model sites\amazon_files\fidelity_logo.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\model sites\model sites\amazon_files\gb-closed.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\model sites\model sites\amazon_files\gc-logo-tiny.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\model sites\model sites\amazon_files\go-button.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\model sites\model sites\amazon_files\go-button-help.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\model sites\model sites\amazon_files\go-orange-trans.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\model sites\model sites\amazon_files\load-up_roto.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\model sites\model sites\amazon_files\logo-on.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\model sites\model sites\amazon_files\make-money-tiger-box-header-163x19.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\model sites\model sites\amazon_files\n2CoreCSS-n2v1-11682.css"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\model sites\model sites\amazon_files\n2CoreLibs-events-7142.js"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\model sites\model sites\amazon_files\n2CoreLibs-simplePopover-26382.js"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\model sites\model sites\amazon_files\n2CoreLibs-utilities-737.js"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\model sites\model sites\amazon_files\officedepot_logo.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\model sites\model sites\amazon_files\orville_75.jpg"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\model sites\model sites\amazon_files\shutterfly_logo.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\model sites\model sites\amazon_files\sidestep_logo.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\model sites\model sites\amazon_files\target_logo.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\model sites\model sites\amazon_files\tirerack_logo.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\model sites\model sites\amazon_files\topnav-cart.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\model sites\model sites\amazon_files\toysrus_logo.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\model sites\model sites\amazon_files\transparent-pixel.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\model sites\model sites\amazon_files\weightwatchers_logo.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\model sites\model sites\amazon_files\winecom_logo.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\model sites\model sites\Auction Addict - Internet Auctions, comparison shopping, and classifieds_files\aa_main.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\model sites\model sites\Auction Addict - Internet Auctions, comparison shopping, and classifieds_files\adjs.js"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\model sites\model sites\Auction Addict - Internet Auctions, comparison shopping, and classifieds_files\adjs_002.js"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\model sites\model sites\Auction Addict - Internet Auctions, comparison shopping, and classifieds_files\adlog.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\model sites\model sites\Auction Addict - Internet Auctions, comparison shopping, and classifieds_files\adlog_002.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\model sites\model sites\Auction Addict - Internet Auctions, comparison shopping, and classifieds_files\adx.js"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\model sites\model sites\Auction Addict - Internet Auctions, comparison shopping, and classifieds_files\AUD.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\model sites\model sites\Auction Addict - Internet Auctions, comparison shopping, and classifieds_files\bignews.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\model sites\model sites\Auction Addict - Internet Auctions, comparison shopping, and classifieds_files\bottomleftcat.GIF"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\model sites\model sites\Auction Addict - Internet Auctions, comparison shopping, and classifieds_files\bottomrightcat.GIF"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\model sites\model sites\Auction Addict - Internet Auctions, comparison shopping, and classifieds_files\checkemail.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\model sites\model sites\Auction Addict - Internet Auctions, comparison shopping, and classifieds_files\easy.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\model sites\model sites\Auction Addict - Internet Auctions, comparison shopping, and classifieds_files\featured.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\model sites\model sites\Auction Addict - Internet Auctions, comparison shopping, and classifieds_files\getstarted.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\model sites\model sites\Auction Addict - Internet Auctions, comparison shopping, and classifieds_files\instructions.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\model sites\model sites\Auction Addict - Internet Auctions, comparison shopping, and classifieds_files\loginout.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\model sites\model sites\Auction Addict - Internet Auctions, comparison shopping, and classifieds_files\medforums_small.GIF"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\model sites\model sites\Auction Addict - Internet Auctions, comparison shopping, and classifieds_files\minimall.htm"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\model sites\model sites\Auction Addict - Internet Auctions, comparison shopping, and classifieds_files\mm.js"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\model sites\model sites\Auction Addict - Internet Auctions, comparison shopping, and classifieds_files\register.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\model sites\model sites\Auction Addict - Internet Auctions, comparison shopping, and classifieds_files\Sell.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\model sites\model sites\Auction Addict - Internet Auctions, comparison shopping, and classifieds_files\service.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\model sites\model sites\Auction Addict - Internet Auctions, comparison shopping, and classifieds_files\storefront.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\model sites\model sites\Auction Addict - Internet Auctions, comparison shopping, and classifieds_files\storefront2.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\model sites\model sites\Auction Addict - Internet Auctions, comparison shopping, and classifieds_files\t-105746-99682-14517-13482-49556.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\model sites\model sites\Auction Addict - Internet Auctions, comparison shopping, and classifieds_files\text_group.htm"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\model sites\model sites\Auction Addict - Internet Auctions, comparison shopping, and classifieds_files\topleftcat.GIF"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\model sites\model sites\Auction Addict - Internet Auctions, comparison shopping, and classifieds_files\toprightcat.GIF"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\model sites\model sites\Auction Addict - Internet Auctions, comparison shopping, and classifieds_files\urchin"
+                    BuildAction = "None"
+                />
+                <File
+                    RelPath = "images\model sites\model sites\Auction Addict - Internet Auctions, comparison shopping, and classifieds_files\USD.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\model sites\model sites\Auction Addict - Internet Auctions, comparison shopping, and classifieds_files\welcome.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\model sites\model sites\Auction Addict - Internet Auctions, comparison shopping, and classifieds_files\x.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\model sites\model sites\Auction Addict - Internet Auctions, comparison shopping, and classifieds_files\youraccount.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\model sites\model sites\Auction Addict - Internet Auctions, comparison shopping, and classifieds_files\minimall_data\20246809.JPG"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\model sites\model sites\Auction Addict - Internet Auctions, comparison shopping, and classifieds_files\minimall_data\9270.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\model sites\model sites\Auction Addict - Internet Auctions, comparison shopping, and classifieds_files\minimall_data\clogo.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\model sites\model sites\Auction Addict - Internet Auctions, comparison shopping, and classifieds_files\minimall_data\eminimall.js"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\model sites\model sites\Auction Addict - Internet Auctions, comparison shopping, and classifieds_files\minimall_data\eminimall_002.js"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\model sites\model sites\Auction Addict - Internet Auctions, comparison shopping, and classifieds_files\minimall_data\main.css"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\model sites\model sites\auctionport.com_files\landing.htm"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\model sites\model sites\auctionport.com_files\top.htm"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\model sites\model sites\auctionport.com_files\landing_data\3856.jpg"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\model sites\model sites\auctionport.com_files\landing_data\bullet-bluearrow.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\model sites\model sites\auctionport.com_files\landing_data\check.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\model sites\model sites\auctionport.com_files\landing_data\rtarrow.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\model sites\model sites\auctionport.com_files\landing_data\spacer.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\model sites\model sites\auctionport.com_files\top_data\uniques.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\model sites\model sites\Auctionscape.com_files\arr_it.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\model sites\model sites\Auctionscape.com_files\arr_part.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\model sites\model sites\Auctionscape.com_files\arrow.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\model sites\model sites\Auctionscape.com_files\bidnow.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\model sites\model sites\Auctionscape.com_files\buyitnow25.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\model sites\model sites\Auctionscape.com_files\camera1.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\model sites\model sites\Auctionscape.com_files\english.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\model sites\model sites\Auctionscape.com_files\german.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\model sites\model sites\Auctionscape.com_files\i_about.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\model sites\model sites\Auctionscape.com_files\i_ads.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\model sites\model sites\Auctionscape.com_files\i_contact.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\model sites\model sites\Auctionscape.com_files\i_faq.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\model sites\model sites\Auctionscape.com_files\i_fees.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\model sites\model sites\Auctionscape.com_files\i_help.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\model sites\model sites\Auctionscape.com_files\i_home.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\model sites\model sites\Auctionscape.com_files\i_login.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\model sites\model sites\Auctionscape.com_files\i_register.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\model sites\model sites\Auctionscape.com_files\i_sell.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\model sites\model sites\Auctionscape.com_files\i_store.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\model sites\model sites\Auctionscape.com_files\logo2.jpg"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\model sites\model sites\Auctionscape.com_files\main.js"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\model sites\model sites\Auctionscape.com_files\makethumb.jpg"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\model sites\model sites\Auctionscape.com_files\makethumb_002.jpg"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\model sites\model sites\Auctionscape.com_files\menubg.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\model sites\model sites\Auctionscape.com_files\noimg.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\model sites\model sites\Auctionscape.com_files\pixel.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\model sites\model sites\Auctionscape.com_files\probidlogo.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\model sites\model sites\Auctionscape.com_files\russian.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\model sites\model sites\Auctionscape.com_files\sep.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\model sites\model sites\Auctionscape.com_files\style.css"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\model sites\model sites\Auctionscape.com_files\tips.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\model sites\model sites\Auctionscape.com_files\vline.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\model sites\model sites\Auction-Warehouse.com - Free auctions for everyone_files\198672.jpg"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\model sites\model sites\Auction-Warehouse.com - Free auctions for everyone_files\202930.jpg"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\model sites\model sites\Auction-Warehouse.com - Free auctions for everyone_files\205055.jpg"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\model sites\model sites\Auction-Warehouse.com - Free auctions for everyone_files\206369.jpg"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\model sites\model sites\Auction-Warehouse.com - Free auctions for everyone_files\206570.jpg"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\model sites\model sites\Auction-Warehouse.com - Free auctions for everyone_files\208534.htm"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\model sites\model sites\Auction-Warehouse.com - Free auctions for everyone_files\208761.jpg"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\model sites\model sites\Auction-Warehouse.com - Free auctions for everyone_files\208775.jpg"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\model sites\model sites\Auction-Warehouse.com - Free auctions for everyone_files\208963.jpg"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\model sites\model sites\Auction-Warehouse.com - Free auctions for everyone_files\208964.jpg"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\model sites\model sites\Auction-Warehouse.com - Free auctions for everyone_files\ads.htm"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\model sites\model sites\Auction-Warehouse.com - Free auctions for everyone_files\ads_002.htm"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\model sites\model sites\Auction-Warehouse.com - Free auctions for everyone_files\ads_003.htm"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\model sites\model sites\Auction-Warehouse.com - Free auctions for everyone_files\AWstyle.css"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\model sites\model sites\Auction-Warehouse.com - Free auctions for everyone_files\bit_37.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\model sites\model sites\Auction-Warehouse.com - Free auctions for everyone_files\bottomcorner_86.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\model sites\model sites\Auction-Warehouse.com - Free auctions for everyone_files\bullet.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\model sites\model sites\Auction-Warehouse.com - Free auctions for everyone_files\Dell%20Lattitude%20C600.jpg"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\model sites\model sites\Auction-Warehouse.com - Free auctions for everyone_files\dot_57.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\model sites\model sites\Auction-Warehouse.com - Free auctions for everyone_files\faq.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\model sites\model sites\Auction-Warehouse.com - Free auctions for everyone_files\faq2.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\model sites\model sites\Auction-Warehouse.com - Free auctions for everyone_files\footerbg.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\model sites\model sites\Auction-Warehouse.com - Free auctions for everyone_files\getstarted1.jpg"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\model sites\model sites\Auction-Warehouse.com - Free auctions for everyone_files\getstarted2.jpg"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\model sites\model sites\Auction-Warehouse.com - Free auctions for everyone_files\go.jpg"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\model sites\model sites\Auction-Warehouse.com - Free auctions for everyone_files\here.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\model sites\model sites\Auction-Warehouse.com - Free auctions for everyone_files\h-ex_45.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\model sites\model sites\Auction-Warehouse.com - Free auctions for everyone_files\h-ex_46.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\model sites\model sites\Auction-Warehouse.com - Free auctions for everyone_files\h-ex_47.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\model sites\model sites\Auction-Warehouse.com - Free auctions for everyone_files\h-ex_48.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\model sites\model sites\Auction-Warehouse.com - Free auctions for everyone_files\h-expa_30.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\model sites\model sites\Auction-Warehouse.com - Free auctions for everyone_files\HR_92.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\model sites\model sites\Auction-Warehouse.com - Free auctions for everyone_files\index_02.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\model sites\model sites\Auction-Warehouse.com - Free auctions for everyone_files\index_03.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\model sites\model sites\Auction-Warehouse.com - Free auctions for everyone_files\index_04.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\model sites\model sites\Auction-Warehouse.com - Free auctions for everyone_files\index_05.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\model sites\model sites\Auction-Warehouse.com - Free auctions for everyone_files\index_09.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\model sites\model sites\Auction-Warehouse.com - Free auctions for everyone_files\index_11.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\model sites\model sites\Auction-Warehouse.com - Free auctions for everyone_files\index_13.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\model sites\model sites\Auction-Warehouse.com - Free auctions for everyone_files\index_15.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\model sites\model sites\Auction-Warehouse.com - Free auctions for everyone_files\index_16.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\model sites\model sites\Auction-Warehouse.com - Free auctions for everyone_files\index_18.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\model sites\model sites\Auction-Warehouse.com - Free auctions for everyone_files\index_30.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\model sites\model sites\Auction-Warehouse.com - Free auctions for everyone_files\index_36.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\model sites\model sites\Auction-Warehouse.com - Free auctions for everyone_files\index_40.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\model sites\model sites\Auction-Warehouse.com - Free auctions for everyone_files\index_45.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\model sites\model sites\Auction-Warehouse.com - Free auctions for everyone_files\index_46.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\model sites\model sites\Auction-Warehouse.com - Free auctions for everyone_files\index_47.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\model sites\model sites\Auction-Warehouse.com - Free auctions for everyone_files\index_56.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\model sites\model sites\Auction-Warehouse.com - Free auctions for everyone_files\index_58.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\model sites\model sites\Auction-Warehouse.com - Free auctions for everyone_files\index_59.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\model sites\model sites\Auction-Warehouse.com - Free auctions for everyone_files\index_61.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\model sites\model sites\Auction-Warehouse.com - Free auctions for everyone_files\index_71.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\model sites\model sites\Auction-Warehouse.com - Free auctions for everyone_files\index_72.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\model sites\model sites\Auction-Warehouse.com - Free auctions for everyone_files\index_74.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\model sites\model sites\Auction-Warehouse.com - Free auctions for everyone_files\index_75.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\model sites\model sites\Auction-Warehouse.com - Free auctions for everyone_files\index_77.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\model sites\model sites\Auction-Warehouse.com - Free auctions for everyone_files\index_78.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\model sites\model sites\Auction-Warehouse.com - Free auctions for everyone_files\index_79.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\model sites\model sites\Auction-Warehouse.com - Free auctions for everyone_files\index_80.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\model sites\model sites\Auction-Warehouse.com - Free auctions for everyone_files\index_81.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\model sites\model sites\Auction-Warehouse.com - Free auctions for everyone_files\index_83.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\model sites\model sites\Auction-Warehouse.com - Free auctions for everyone_files\logomain.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\model sites\model sites\Auction-Warehouse.com - Free auctions for everyone_files\navi_20.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\model sites\model sites\Auction-Warehouse.com - Free auctions for everyone_files\navi_21.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\model sites\model sites\Auction-Warehouse.com - Free auctions for everyone_files\navi_22.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\model sites\model sites\Auction-Warehouse.com - Free auctions for everyone_files\navi_24.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\model sites\model sites\Auction-Warehouse.com - Free auctions for everyone_files\navi_25.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\model sites\model sites\Auction-Warehouse.com - Free auctions for everyone_files\navi_26.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\model sites\model sites\Auction-Warehouse.com - Free auctions for everyone_files\navi_27.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\model sites\model sites\Auction-Warehouse.com - Free auctions for everyone_files\navi_28.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\model sites\model sites\Auction-Warehouse.com - Free auctions for everyone_files\navi_29.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\model sites\model sites\Auction-Warehouse.com - Free auctions for everyone_files\outline.js"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\model sites\model sites\Auction-Warehouse.com - Free auctions for everyone_files\shim.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\model sites\model sites\Auction-Warehouse.com - Free auctions for everyone_files\show_ads"
+                    BuildAction = "None"
+                />
+                <File
+                    RelPath = "images\model sites\model sites\Auction-Warehouse.com - Free auctions for everyone_files\tabexp_63.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\model sites\model sites\Auction-Warehouse.com - Free auctions for everyone_files\top.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\model sites\model sites\Auction-Warehouse.com - Free auctions for everyone_files\widthindex.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\model sites\model sites\bids_files\a.htm"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\model sites\model sites\bids_files\a_data\00.jpg"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\model sites\model sites\bids_files\a_data\03.jpg"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\model sites\model sites\bids_files\a_data\04.jpg"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\model sites\model sites\bids_files\a_data\1.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\model sites\model sites\bids_files\a_data\10.jpg"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\model sites\model sites\bids_files\a_data\15.jpg"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\model sites\model sites\bids_files\a_data\16.jpg"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\model sites\model sites\bids_files\a_data\16_002.jpg"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\model sites\model sites\bids_files\a_data\2.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\model sites\model sites\bids_files\a_data\25.jpg"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\model sites\model sites\bids_files\a_data\3.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\model sites\model sites\bids_files\a_data\34.jpg"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\model sites\model sites\bids_files\a_data\34_002.jpg"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\model sites\model sites\bids_files\a_data\42.jpg"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\model sites\model sites\bids_files\a_data\42_002.jpg"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\model sites\model sites\bids_files\a_data\43.jpg"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\model sites\model sites\bids_files\a_data\46.jpg"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\model sites\model sites\bids_files\a_data\50.jpg"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\model sites\model sites\bids_files\a_data\54.jpg"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\model sites\model sites\bids_files\a_data\60.jpg"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\model sites\model sites\bids_files\a_data\62.jpg"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\model sites\model sites\bids_files\a_data\73.jpg"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\model sites\model sites\bids_files\a_data\86.jpg"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\model sites\model sites\bids_files\a_data\amethyst.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\model sites\model sites\bids_files\a_data\aquamarine.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\model sites\model sites\bids_files\a_data\bid.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\model sites\model sites\bids_files\a_data\bid_button_yellow.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\model sites\model sites\bids_files\a_data\billmelater_bnr.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\model sites\model sites\bids_files\a_data\blank.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\model sites\model sites\bids_files\a_data\cat.swf"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\model sites\model sites\bids_files\a_data\creditcards.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\model sites\model sites\bids_files\a_data\details_button_blue.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\model sites\model sites\bids_files\a_data\diamond.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\model sites\model sites\bids_files\a_data\digiclock.swf"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\model sites\model sites\bids_files\a_data\dot_bg.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\model sites\model sites\bids_files\a_data\drop.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\model sites\model sites\bids_files\a_data\emerald.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\model sites\model sites\bids_files\a_data\featureditm.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\model sites\model sites\bids_files\a_data\go_btn.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\model sites\model sites\bids_files\a_data\gold.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\model sites\model sites\bids_files\a_data\holyland.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\model sites\model sites\bids_files\a_data\home_small.swf"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\model sites\model sites\bids_files\a_data\i_bfart.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\model sites\model sites\bids_files\a_data\i_clock.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\model sites\model sites\bids_files\a_data\i_expensive.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\model sites\model sites\bids_files\a_data\i_expensive2.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\model sites\model sites\bids_files\a_data\i_jewelry_bracelet.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\model sites\model sites\bids_files\a_data\i_jewelry_clr.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\model sites\model sites\bids_files\a_data\i_jewelry_earrings.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\model sites\model sites\bids_files\a_data\i_jewelry_gent.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\model sites\model sites\bids_files\a_data\i_jewelry_marrym.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\model sites\model sites\bids_files\a_data\i_jewelry_necklace.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\model sites\model sites\bids_files\a_data\i_jewelry_ring.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\model sites\model sites\bids_files\a_data\i_jewelry_watches.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\model sites\model sites\bids_files\a_data\i_live.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\model sites\model sites\bids_files\a_data\i_worldfs_hp.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\model sites\model sites\bids_files\a_data\image1.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\model sites\model sites\bids_files\a_data\image2.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\model sites\model sites\bids_files\a_data\jewelersmutual.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\model sites\model sites\bids_files\a_data\lithuania.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\model sites\model sites\bids_files\a_data\main_menu_bg3.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\model sites\model sites\bids_files\a_data\main_menu_logo3.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\model sites\model sites\bids_files\a_data\main_menu_new3i.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\model sites\model sites\bids_files\a_data\master.swf"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\model sites\model sites\bids_files\a_data\moldova.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\model sites\model sites\bids_files\a_data\more.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\model sites\model sites\bids_files\a_data\oldfashion_dn.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\model sites\model sites\bids_files\a_data\opal.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\model sites\model sites\bids_files\a_data\pay.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\model sites\model sites\bids_files\a_data\pearl.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\model sites\model sites\bids_files\a_data\results.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\model sites\model sites\bids_files\a_data\ruby.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\model sites\model sites\bids_files\a_data\sapphire.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\model sites\model sites\bids_files\a_data\show_bl.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\model sites\model sites\bids_files\a_data\show_br.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\model sites\model sites\bids_files\a_data\show_l.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\model sites\model sites\bids_files\a_data\show_ul.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\model sites\model sites\bids_files\a_data\show_ur.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\model sites\model sites\bids_files\a_data\showcase_up.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\model sites\model sites\bids_files\a_data\silver.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\model sites\model sites\bids_files\a_data\tanzanite.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\model sites\model sites\bids_files\a_data\technolect_foot.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\model sites\model sites\bids_files\a_data\topaz.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\model sites\model sites\bids_files\a_data\win_mac_n6.css"
+                    BuildAction = "Content"
+                />
+            </Include>
+        </Files>
+    </CSHARP>
+</VisualStudioProject>
+

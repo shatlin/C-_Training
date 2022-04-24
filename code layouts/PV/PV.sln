@@ -1,0 +1,21 @@
+Microsoft Visual Studio Solution File, Format Version 8.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PV", "http://localhost/_layouts/PV/PV.csproj", "{177B3CAD-4603-496A-A834-4D66F6346660}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfiguration) = preSolution
+		Debug = Debug
+		Release = Release
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{177B3CAD-4603-496A-A834-4D66F6346660}.Debug.ActiveCfg = Debug|.NET
+		{177B3CAD-4603-496A-A834-4D66F6346660}.Debug.Build.0 = Debug|.NET
+		{177B3CAD-4603-496A-A834-4D66F6346660}.Release.ActiveCfg = Release|.NET
+		{177B3CAD-4603-496A-A834-4D66F6346660}.Release.Build.0 = Release|.NET
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal

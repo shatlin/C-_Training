@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!-- _LocalBinding2 -->
+<!-- _lcid="1033" _version="2.0.0438.0" -->
+<WebPart xmlns="http://schemas.microsoft.com/WebPart/v2" >
+	<Title>Office Scorecard Browser</Title>
+	<Description>Office Scorecard Browser</Description>
+	<Assembly>Microsoft.PerformanceManagement.Scorecards.WebParts, Version=2.0.0.0, Culture=neutral, PublicKeyToken=31BF3856AD364E35</Assembly>
+	<TypeName>Microsoft.PerformanceManagement.Scorecards.WebParts.ScorecardBrowserWebPart</TypeName>
+	<!-- Specify initial values for any additional base class or custom properties here. -->
+</WebPart>

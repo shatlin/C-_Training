@@ -1,0 +1,5 @@
+E:\Shatlin\Work\trials\ThreadSharingData\ThreadSharingData\obj\Debug\ResolveAssemblyReference.cache
+E:\Shatlin\Work\trials\ThreadSharingData\ThreadSharingData\bin\Debug\ThreadSharingData.exe
+E:\Shatlin\Work\trials\ThreadSharingData\ThreadSharingData\bin\Debug\ThreadSharingData.pdb
+E:\Shatlin\Work\trials\ThreadSharingData\ThreadSharingData\obj\Debug\ThreadSharingData.exe
+E:\Shatlin\Work\trials\ThreadSharingData\ThreadSharingData\obj\Debug\ThreadSharingData.pdb

@@ -1,0 +1,5 @@
+var phpadsbanner = '';
+
+phpadsbanner += '<'+'!-- Begin: AdBrite -->\n<'+'style type="text/css">\n.adHeadline {font: bold 8pt Arial; text-decoration: underline; color: blue;}\n.adText {font: normal 8pt Arial; text-decoration: none; color: black;}\n.adbuy {font: normal 12pt Arial; text-decoration: none; color: red;}\n<'+'/style>\n<'+'script type="text/javascript" src="http://3.adbrite.com/mb/text_group.php?sid=44684&amp;col=2&amp;br=1&amp;dk=6169722074726176656c20646973636f756e745f35"><'+'/script>\n<'+'p />\n<'+'div><'+'a class="adbuy" target="_top" href="http://www.adbrite.com/mb/commerce/purchase_form.php?opid=44684&amp;afsid=1">Your Ad Here<'+'/a><'+'/div>\n<'+'!-- End: AdBrite --><'+'div id="beacon_46" style="position: absolute; left: 0px; top: 0px; visibility: hidden;"><'+'img src=\'http://tward.net/adserver/phpAdsNew-2.0/adlog.php?bannerid=46&amp;clientid=15&amp;zoneid=18&amp;source=&amp;block=0&amp;capping=0&amp;cb=a6b906c7312fe92dc23de4b65e2ba13e\' width=\'0\' height=\'0\' alt=\'\' style=\'width: 0px; height: 0px;\'><'+'/div>';
+
+document.write(phpadsbanner);
